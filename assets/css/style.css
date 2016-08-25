@@ -1,0 +1,25 @@
+/*** General ***/
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+/*** Colors ***/
+.white {
+    color: #fff;
+}
+
+/*** Splash Message ***/
+.splash-msg h1 {
+    font-size: 3.5em;
+}
+
+.splash-msg h2 {
+    font-size: 2.5em;
+}
+
+.splash-msg p {
+    font-size: 1.25em;
+}
