@@ -1,5 +1,12 @@
 /*** General ***/
-
+body {
+    background: url(../images/pexels-photo-129882-transparent.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #222;
+}
 
 /*** Main Content ***/
 .main-content {
@@ -26,7 +33,7 @@
 .main-content hr {
     margin-top: 50px;
     margin-bottom: 50px;
-    border-top-color: #999;
+    border-top-color: #666;
 }
 
 .main-content .btn {
@@ -35,10 +42,10 @@
     color: #fff;
     opacity: 1;
     font-size: 1.15em;
-    transition: color 0.3s;
+    transition: color 0.4s;
 }
 
 .main-content .btn:hover,
 .main-content .btn:focus {
-    color: #000;
+    color: #222;
 }
