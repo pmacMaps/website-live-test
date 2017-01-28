@@ -422,11 +422,20 @@ fieldset[disabled] .btn-success.active {
    margin-top: -45px;
 }
 
-
 /* Featured Portfolio Items */
+.feat-portfolio h2 {
+    margin-bottom: 50px;
+}
+
 .feat-portfolio .thumbnail {
+    min-height: 625px;
     padding: 25px;
-    background: #ddd;
+    background: #ddd;    
+}
+
+.feat-portfolio .thumbnail h3,
+.feat-portfolio .thumbnail img {
+    margin-bottom: 25px;
 }
 
 .portfolio-item p {
