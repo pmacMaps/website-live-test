@@ -402,22 +402,33 @@ fieldset[disabled] .btn-success.active {
 /*** Homepage ***/
 
 /* About Me Summary */
-body.home .jumbotron {
+.home-intro {
     margin-top: 100px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 125px;
+    padding-bottom: 125px;
     background: url(../images/pexels-photo-129882-transparent.jpeg) no-repeat bottom center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;   
+    background-size: cover; 
+    
 }
 
-body.home .jumbotron p {
-     font-size: 2em;
+.home-intro p {
+    font-size: 2em;    
 }
+
+.home-intro img {
+   margin-top: -45px;
+}
+
 
 /* Featured Portfolio Items */
+.feat-portfolio .thumbnail {
+    padding: 25px;
+    background: #ddd;
+}
+
 .portfolio-item p {
     font-size: 1.25em;
 }
