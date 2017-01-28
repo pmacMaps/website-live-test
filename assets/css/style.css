@@ -441,3 +441,15 @@ fieldset[disabled] .btn-success.active {
 .portfolio-item p {
     font-size: 1.25em;
 }
+/* Professional Services */
+.prof-services {
+    margin-top: 100px;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    background: url(../images/skyline-buildings-new-york-skyscrapers.jpg) no-repeat bottom center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    
+}
