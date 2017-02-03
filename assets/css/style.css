@@ -8,7 +8,7 @@ body {
   overflow-x: hidden;
 }
 p {
-  font-size: 20px;
+  font-size: 1.25em;
 }
 p.small {
   font-size: 16px;
@@ -439,13 +439,12 @@ fieldset[disabled] .btn-success.active {
 }
 
 .feat-portfolio .thumbnail h3,
-.feat-portfolio .thumbnail img {
+.feat-portfolio .thumbnail img,
+.prof-services h3,
+.prof-services i {
     margin-bottom: 25px;
 }
 
-.portfolio-item p {
-    font-size: 1.25em;
-}
 
 /* Professional Services */
 .prof-services {
@@ -461,4 +460,8 @@ fieldset[disabled] .btn-success.active {
 
 .prof-services .fa {
     font-size: 2em;
+}
+
+.prof-services .thumbnail {
+    min-height: 525px;
 }
