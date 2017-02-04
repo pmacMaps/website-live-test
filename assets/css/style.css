@@ -424,7 +424,8 @@ fieldset[disabled] .btn-success.active {
 
 /* Featured Portfolio Items */
 .feat-portfolio h2,
-.prof-services h2 {
+.prof-services h2,
+.feat-posts h2 {
     margin-bottom: 50px;
 }
 
@@ -434,7 +435,8 @@ fieldset[disabled] .btn-success.active {
 }
 
 .feat-portfolio .thumbnail,
-.prof-services .thumbnail {
+.prof-services .thumbnail,
+.feat-posts .thumbnail {
     padding: 25px;
 }
 
@@ -464,4 +466,15 @@ fieldset[disabled] .btn-success.active {
 
 .prof-services .thumbnail {
     min-height: 525px;
+}
+
+
+/* Featured Posts */
+.feat-posts .thumbnail {
+    min-height: 650px;
+    border-color: #777;
+}
+
+.feat-posts .thumbnail hr {
+    border-top-color: #777;
 }
