@@ -398,6 +398,42 @@ fieldset[disabled] .btn-success.active {
   outline: none;
 }
 
+/*** Header & Footer ***/
+.navbar-custom .navbar-brand,
+.social-footer a {
+    color: #fff;
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -o-transition: color 0.4s;
+    transition: color 0.4s;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+/* Social icons in footer */
+.social-footer a:hover,
+.social-footer a:focus {
+    color: #000;
+}
+
+
+/* Navigation Header */
+
+
+/* Footer */
+.social-footer .fa {
+    font-size: 3em;
+}
+
+.social-footer span {
+    margin: 0 20px;
+}
+
+.social-footer hr {
+    width: 50%;
+}
+
+
 
 /*** Homepage ***/
 
@@ -468,6 +504,20 @@ fieldset[disabled] .btn-success.active {
     min-height: 525px;
 }
 
+/* Contact Me */
+#contact-pnm {
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px;
+    background: #fff;
+}
+
+#contact-pnm a .btn {
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 1.5em;    
+}
+
 
 /* Featured Posts */
 .feat-posts .thumbnail {
@@ -478,3 +528,5 @@ fieldset[disabled] .btn-success.active {
 .feat-posts .thumbnail hr {
     border-top-color: #777;
 }
+
+
