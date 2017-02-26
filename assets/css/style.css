@@ -434,12 +434,11 @@ fieldset[disabled] .btn-success.active {
 }
 
 
-
 /*** Homepage ***/
 
 /* About Me Summary */
 .home-intro {
-    margin-top: 100px;
+    margin-top: 100px; 
     padding-top: 125px;
     padding-bottom: 125px;
     background: url(../images/pexels-photo-129882-transparent.jpeg) no-repeat bottom center fixed; 
@@ -447,7 +446,6 @@ fieldset[disabled] .btn-success.active {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; 
-    
 }
 
 .home-intro p {
@@ -530,3 +528,7 @@ fieldset[disabled] .btn-success.active {
 }
 
 
+/*** About Page ***/
+.about-intro {
+    margin-top: 50px;     
+}
