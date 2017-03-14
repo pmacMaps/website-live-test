@@ -459,7 +459,8 @@ fieldset[disabled] .btn-success.active {
 /* Featured Portfolio Items */
 .feat-portfolio h2,
 .prof-services h2,
-.feat-posts h2 {
+.feat-posts h2,
+.client-list h2 {
     margin-bottom: 50px;
 }
 
@@ -531,4 +532,43 @@ fieldset[disabled] .btn-success.active {
 /*** About Page ***/
 .about-intro {
     margin-top: 50px;     
+}
+
+.about-intro button {
+    margin: 50px auto;
+    font-size: 1.25em;
+}
+
+.about-intro h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.about-intro ul {
+    list-style: square;
+    font-size: 1.15em;
+}
+
+
+.client-list {
+    padding-top: 125px;
+    padding-bottom: 125px;    
+    background: url(../images/herring-cove-beach-sunset-transparent.JPG) no-repeat bottom center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+
+.client-list .row {
+    margin: 0 auto;
+}
+
+.client-list h4 {
+    display: inline-block;
+    margin: 15px 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #fff;
 }
