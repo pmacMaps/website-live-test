@@ -550,7 +550,6 @@ fieldset[disabled] .btn-success.active {
     font-size: 1.15em;
 }
 
-
 .client-list {
     padding-top: 125px;
     padding-bottom: 125px;    
@@ -571,4 +570,13 @@ fieldset[disabled] .btn-success.active {
     padding: 15px;
     border-radius: 10px;
     background: #fff;
+}
+
+
+/*** Portfolio Page ***/
+.portfolio-main {
+    /*min-height: 700px;*/
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 75px;
 }
