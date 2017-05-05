@@ -580,3 +580,15 @@ fieldset[disabled] .btn-success.active {
     padding-top: 100px;
     padding-bottom: 75px;
 }
+
+.img-container .img-responsive {
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+body.pf-single .pf-link {
+    display: block;
+    margin-top: 25px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
