@@ -581,10 +581,11 @@ fieldset[disabled] .btn-success.active {
     padding-bottom: 75px;
 }
 
+/* Use to constrain size of images for portfolio items
 .img-container .img-responsive {
-    margin-left: 50%;
-    margin-right: 50%;
+    
 }
+*/
 
 body.pf-single .pf-link {
     display: block;
