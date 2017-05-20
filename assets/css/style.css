@@ -520,7 +520,7 @@ fieldset[disabled] .btn-success.active {
 
 /* Featured Posts */
 .feat-posts .thumbnail {
-    min-height: 650px;
+    min-height: 525px;
     border-color: #777;
 }
 
