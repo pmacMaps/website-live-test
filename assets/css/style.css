@@ -590,7 +590,7 @@ body.portfolio .portfolio-item div.caption a > button {
 }
 
 /* Portfolio Groups */
-#mapsPrint {
+#mapsWeb {
     margin-top: 125px;
 }
 
@@ -605,6 +605,10 @@ body.portfolio .portfolio-item div.caption a > button {
 
 #mapsPrint .portfolio-item div.caption p {
     min-height: 175px;
+}
+
+#mapsPrint .portfolio-item .img-container {
+    min-height: 250px;
 }
 
 #mapsWeb .portfolio-item div.caption p {
