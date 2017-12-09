@@ -581,6 +581,44 @@ fieldset[disabled] .btn-success.active {
     padding-bottom: 75px;
 }
 
+body.portfolio .feat-portfolio {
+    padding: 50px 0px;
+}
+
+body.portfolio .portfolio-item div.caption a > button {
+    font-size: 1.25em;
+}
+
+/* Portfolio Groups */
+#mapsPrint {
+    margin-top: 125px;
+}
+
+#mapsPrint .portfolio-item h3,
+#mapsWeb .portfolio-item h3 {
+    min-height: 80px;
+}
+
+#customGIS .portfolio-item h3 {
+    min-height: 60px;
+}
+
+#mapsPrint .portfolio-item div.caption p {
+    min-height: 175px;
+}
+
+#mapsWeb .portfolio-item div.caption p {
+    min-height: 225px;
+}
+
+#customGIS .portfolio-item div.caption p {
+    min-height: 150px;
+}
+
+#webDev .portfolio-item div.caption p {
+    min-height: 175px;
+}
+
 /* Use to constrain size of images for portfolio items
 .img-container .img-responsive {
     
