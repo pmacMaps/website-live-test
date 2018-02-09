@@ -124,14 +124,14 @@ a:focus {
 .slide {
     display: block;
     width: 900px;    
-    height: 700px;
+    height: 725px;
     padding: 40px 60px;
     background-color: white;
     border: 1px solid rgba(0, 0, 0, .3);
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
     color: #333;    
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     line-height: 36px;
     letter-spacing: -1px;
@@ -182,7 +182,8 @@ a:focus {
 
 .impress-enabled .hint { display: block }
 
-.impress-on-title .hint {    
+.impress-on-title .hint { 
+    display: none;
     opacity: 1;
     -webkit-transform: translateY(0px);
     -moz-transform:    translateY(0px);
@@ -200,14 +201,24 @@ a:focus {
 .impress-enabled #impress { pointer-events: auto }
 
 /* Custom Styles */
+.slide .title,
+.make-map {
+     font-family: 'Merriweather', serif;
+}
+
 .slide .title {
-    margin-bottom: 75px;    
+    margin-bottom: 50px;    
     font-weight: bold;
-    font-size: 75px;
-    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 1.5em;   
+    line-height: 1.25em;   
 }
 
 .make-map {
     color: #fff;
     font-size: 3em;
+}
+
+.slide p, 
+.slide li {
+    font-family: 'Roboto', sans-serif;
 }
