@@ -620,7 +620,7 @@ body.portfolio .portfolio-item div.caption a > button {
 }
 
 #webDev .portfolio-item div.caption p {
-    min-height: 175px;
+    min-height: 150px;
 }
 
 /* Use to constrain size of images for portfolio items
@@ -632,4 +632,9 @@ body.portfolio .portfolio-item div.caption a > button {
 body.pf-single .pf-link {
     display: block;
     margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+body.pf-single .pf-link > .btn {
+    font-size: 2em;
 }
