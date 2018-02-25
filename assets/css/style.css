@@ -5,6 +5,7 @@
  */
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /*font-family: Verdana,Geneva,sans-serif;*/
   overflow-x: hidden;
 }
 p {
@@ -103,13 +104,12 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
 }
-.navbar-custom {
-  background: #2C3E50;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  border: none;
+
+
+.navbar-custom li a {
+    font-size: 1.35em;
 }
+
 .navbar-custom a:focus {
   outline: none;
 }
@@ -128,10 +128,7 @@ header .intro-text .skills {
 .navbar-custom .navbar-nav li a {
   color: white;
 }
-.navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
-  outline: none;
-}
+
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
   color: white;
@@ -280,21 +277,6 @@ footer .footer-below {
   background: white;
   border: solid 2px white;
 }
-.btn-primary {
-  color: white;
-  background-color: #2C3E50;
-  border-color: #2C3E50;
-  font-weight: 700;
-}
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-  color: white;
-  background-color: #1a242f;
-  border-color: #161f29;
-}
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
@@ -399,26 +381,70 @@ fieldset[disabled] .btn-success.active {
 }
 
 /*** Header & Footer ***/
+.navbar-custom,
+footer .footer-below {
+    background: #6C815E;
+}
+
+.navbar-custom {  
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;  
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+}
+
+.navbar-custom .navbar-nav li a,
 .navbar-custom .navbar-brand,
 .social-footer a {
-    color: #fff;
-    -webkit-transition: color 0.4s;
-    -moz-transition: color 0.4s;
-    -o-transition: color 0.4s;
-    transition: color 0.4s;
+    -webkit-transition: color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;  
+}
+
+.navbar-custom .navbar-brand,
+.social-footer a {
+    color: #fff;    
 }
 
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-nav li a:hover,
+.navbar-custom .navbar-nav li a:focus,
 /* Social icons in footer */
 .social-footer a:hover,
 .social-footer a:focus {
     color: #000;
 }
 
+.navbar-custom .navbar-nav li a:hover,
+.navbar-custom .navbar-nav li a:focus {
+    border-bottom: solid 2px #000;
+    
+}
 
-/* Navigation Header */
+/* Links & Buttons */
+.btn-primary {
+  color: white;
+  background-color: #6C815E;
+  border-color: #000;
+  font-weight: 700;
+  -webkit-transition: background 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  -o-transition: background 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
 
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: white;
+  background-color: #000;
+  border-color: #fff;
+}
 
 /* Footer */
 .social-footer .fa {
