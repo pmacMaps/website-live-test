@@ -11,29 +11,233 @@
         <!-- Place favicon.ico in the root directory -->
         
         <!-- Bootstrap -->
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />        
+
         <!-- Custom CSS -->
         <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+        <!-- Font Awesome -->
+        <script src="//use.fontawesome.com/506d5e95b2.js"></script>
     </head>
-    <body>
-        <!--[if lt IE 8]>
+    <body id="page-top" class="home">
+        <!--[if lt IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <!-- Navigation -->
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <!-- change the data-target -->
+                        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="./">Patrick N. McKinney</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> <!-- change the id -->
+                    <ul class="nav navbar-nav navbar-right">
+                        <!-- only need page-scroll class if using that functionality on the page -->
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="./about/">About</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="./portfolio/">Portfolio</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="https://pnmcartodesign.wordpress.com/" target="_blank">Blog</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#contact-pnm">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <!-- About Me Summary -->
+        <section class="home-intro">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img alt="headshot of Patrick McKinney" class="img-responsive img-circle" src="assets/images/patrick-suit.JPG" />
+                    </div>
+                    <div class="col-md-10">
+                        <p>I am a geographer interested in telling the stories of communities through maps and technology.</p>         
+                    </div>
+                </div>
+            </div>
+        </section> <!-- ./ About Me -->
+        <!-- Featured Projects -->
+        <section class="feat-portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Featured Projects</h2>                        
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Item 1 -->
+                    <div class="col-sm-4 portfolio-item">
+                        <div class="thumbnail">
+                            <h3 class="text-center">Camp Swatara Hiking Trails Map</h3>
+                            <img src="assets/images/portfolio/CampSwatara-HikingTrails-Thumbnail.png" alt="Camp Swatara hiking trails map" class="img-responsive" />
+                            <div class="caption">                          
+                                <p>Camp Swatara is a family and summer camp located in southeastern Pennsylvania.  The focus of this project was redesigning the hiking trails map with more accurate mapping of the trails.</p>               
+                                <!-- Link to project page -->
+                                <a href="./portfolio/product/camp-swatara-hiking-trails.html"><button type="button" class="btn btn-primary">Learn More</button></a>                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="col-sm-4 portfolio-item">
+                        <div class="thumbnail">
+                            <h3 class="text-center">Interactive Data Map</h3>
+                            <a href="http://map.cumberlandbusiness.com" target="_blank"><img src="assets/images/portfolio/idm-social-banner.jpg" alt="screenshot of Interactive Data Map website" class="img-responsive"></a>
+                            <div class="caption">                          
+                                <p>The Interactive Data Map was developed for the Cumberland County Economic Development Corporation to promote the County to prospective businesses.  It features a custom deployment of the Esri Shortlist Storytelling web map application.</p> 
+                                <!-- Link to project page -->
+                                <a href="./portfolio/product/interactive-data-map.html"><button type="button" class="btn btn-primary">Learn More</button></a> 
+                            </div>
+                        </div>
+                        </div>
+                    <!-- Item 3 -->
+                    <div class="col-sm-4 portfolio-item">
+                        <div class="thumbnail">
+                            <h3 class="text-center">SARA Report Tool</h3>
+                            <a href="https://github.com/pmacMaps/sara-report-tool" target="_blank"><img src="assets/images/portfolio/dirty-industry-stack-factory-github.jpg" alt="smokestacks at a factory" class="img-responsive"></a>
+                            <div class="caption">                          
+                                <p>The SARA Report Tool is a custom ArcGIS tool developed to assist Cumberland County Public Safety with the reporting for hazardous chemical facilties.  It creates risk radii, and calculates the estimated population and extracts vulnerable facilities in each risk radius.</p>               
+                                <!-- Link to project page -->
+                                <a href="./portfolio/product/sara-report-tool.html"><button type="button" class="btn btn-primary">Learn More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>                    
+                </div>                        
+        </section> <!-- ./ Porfolio Items -->
+        <!-- Areas of Expertise -->
+        <section class="prof-services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Professional Services</h2>                        
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Item 1 -->
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <h3 class="text-center">Geospatial Technology</h3>
+                            <p class="text-center"><i class="fa fa-map-o" aria-hidden="true"></i></p>
+                            <p>Experience managing enterprise GIS databases, performing spatial analysis, and designing maps with artistic skill.</p>
+                            <p>I can also assist with developing web map applications, building custom desktop GIS tools, and automating workflows with Python scripts.</p>
+                        </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="col-sm-4"> 
+                        <div class="thumbnail">
+                            <h3 class="text-center">Web Design &#38; Development</h3>
+                            <p class="text-center"><i class="fa fa-file-code-o" aria-hidden="true"></i></p>
+                            <p>Experience building websites on major platforms like Wordpress and Drupal.  Once the site is built, I can provide on-going maintenance and technical support.</p>
+                            <p>If you're looking for someone to provide extra support on a project, I can help with CSS or JavaScript customizations.  I can also help with cross-browser testing.</p>
+                        </div>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="col-sm-4">  
+                        <div class="thumbnail">
+                            <h3 class="text-center">Geospatial &#38; Developer Training</h3>
+                            <p class="text-center"><i class="fa fa-graduation-cap" aria-hidden="true"></i></p>
+                            <p>Are your or your team interested in learning how to code to better support your GIS workflows?  Have you wanted to take your web map app to the next level?</p> 
+                            <p>I have presented developer-focused technical sessions at professional events on web mapping and desktop scripting.  I would love to help you on your journey to learn how to code.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="contact-pnm" class="row col-lg-12">
+                    <h2 class="text-center">Lets Get In Touch</h2>
+                    <p>Looking for some extra help on a website build?  Need some additional GIS expertise?  Want someone to help train you in GIS programming?</p>
+                    <p>If so, I would love to hear about how I might be able to help you out!</p>
+                    <p class="text-center"><a href="mailto:pnmcartography@gmail.com" target="_blank"><button type="button" class="btn btn-primary">Contact Patrick</button></a></p>
+                </div>
+            </div>
+        </section> <!-- ./ Professional Services -->
+        <!-- Latest Posts -->
+        <section class="feat-posts">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Recent Articles</h2>                        
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Post 1 -->
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <a href="https://pnmcartodesign.wordpress.com/2017/05/12/automating-gis-workflows-with-python-scripts/" target="_blank"><img src="assets/images/blog/pexels-photo-188710.jpeg" alt="car assembly line" class="img-responsive" /></a>
+                            <a href="https://pnmcartodesign.wordpress.com/2017/05/12/automating-gis-workflows-with-python-scripts/" target="_blank"><h3 class="text-center">Automating GIS Workflows with Python Scripts</h3></a>
+                            <p class="text-center">May 12, 2017</p>
+                            <hr />
+                            <p>A review of the Python script I've developed for automated GIS workflows.  Based on a session from the 2017 Pennsylvania GIS Conference.</p>
+                        </div>
+                    </div> 
+                    <!-- Post 2 -->
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <a href="https://pnmcartodesign.wordpress.com/2017/05/02/leaflet-geojson-feature-search/" target="_blank"><img src="assets/images/blog/pexels-photo-70153.jpeg" alt="person looking through music records" class="img-responsive" /></a>
+                            <a href="https://pnmcartodesign.wordpress.com/2017/05/02/leaflet-geojson-feature-search/" target="_blank"><h3 class="text-center">Leaflet GeoJSON Feature Search</h3></a>
+                            <p class="text-center">May 2, 2017</p>
+                            <hr />
+                            <p>A step-by-step walkthrough of creating a search interface for GeoJSON features in Leaflet.js.  This method utilizes the jQuery UI Autocomplete widget.</p>
+                        </div>
+                    </div>
+                    <!-- Post 3 -->
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <a href="https://pnmcartodesign.wordpress.com/2017/04/18/script-example-move-and-unzip-file-rename-zipped-file/" target="_blank"><img src="assets/images/blog/sctf-script-desk-notes.jpg" alt="computer desk with notepad and coffee mug" class="img-responsive" /></a>
+                            <a href="https://pnmcartodesign.wordpress.com/2017/04/18/script-example-move-and-unzip-file-rename-zipped-file/" target="_blank"><h3 class="text-center">Script Example: Move and Unzip File; Rename Zipped File</h3></a>
+                            <p class="text-center">April 18, 2017</p>
+                            <hr />
+                            <p>The South Central Task Force GIS Working Group has been transitioning from quarterly to monthly GIS data updates.  I developed a script to help automate copying and unzipping files.</p>
+                        </div>
+                    </div>   
+                </div>                    
+            </div>                        
+        </section> <!-- ./ Latest Posts -->
+        <!-- Footer -->
+        <footer class="text-center">
+            <div class="footer-below">
+                <div class="container">
+                    <div class="row social-footer">
+                        <h3>Let&#8217;s Connect</h3>                        
+                        <a href="https://www.linkedin.com/in/patricknmckinney" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        <span></span>
+                        <a href="https://github.com/pmacMaps" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+                        <hr />
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p>Copyright &copy; Patrick N. McKinney 2018</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer> <!-- ./ Footer -->
 
-        <section class="container text-center main-content">
-            <h1>Patrick N. McKinney</h1>
-            <h2>Cartographer &#38; Developer</h2>
-            <hr />
-            <p class="bio">I am a geographer interested in telling the stories of communities through maps and technology.</p>
-            <p>I have helped local governments and non-profits tell their stories through maps for print, interactive web maps, and websites.</p>
-            <hr />
-            <h3>Connect With Me</h3>
-            <p><a class="btn" href="https://github.com/pmacMaps/">GitHub</a> --- <a class="btn" href="https://www.linkedin.com/in/patricknmckinney">LinkedIn</a></p>
-        </section>         
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+        <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+            <a class="btn btn-primary" href="#page-top">
+                <i class="fa fa-chevron-up"></i>
+            </a>
+        </div>          
 
         <!-- jQuery -->
         <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
         <!-- Bootstrap -->
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </body>
 </html>
