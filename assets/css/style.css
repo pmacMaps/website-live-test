@@ -483,6 +483,17 @@ footer .footer-below {
 }
 
 /* Featured Portfolio Items */
+#home-portfolio {
+    margin-top: 100px;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    background: url(../images/skyline-buildings-new-york-skyscrapers-transparent.jpg) no-repeat bottom center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;   
+}
+
 .feat-portfolio h2,
 .prof-services h2,
 .feat-posts h2,
@@ -491,8 +502,7 @@ footer .footer-below {
 }
 
 .feat-portfolio .thumbnail {
-    min-height: 625px;    
-    background: #ddd;    
+    min-height: 625px;      
 }
 
 .feat-portfolio .thumbnail,
@@ -508,45 +518,13 @@ footer .footer-below {
     margin-bottom: 25px;
 }
 
-
-/* Professional Services */
-.prof-services {
-    margin-top: 100px;
-    padding-top: 125px;
-    padding-bottom: 125px;
-    background: url(../images/skyline-buildings-new-york-skyscrapers-transparent.jpg) no-repeat bottom center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;     
-}
-
-.prof-services .fa {
-    font-size: 2em;
-}
-
-.prof-services .thumbnail {
-    min-height: 525px;
-}
-
-/* Contact Me */
-#contact-pnm {
-    margin: 0 auto;
-    margin-top: 50px;
-    padding: 30px;
-    background: #fff;
-}
-
-#contact-pnm a .btn {
-    margin-top: 25px;
-    padding: 10px;
-    font-size: 1.5em;    
-}
-
-
 /* Featured Posts */
 .feat-posts .thumbnail {
-    min-height: 525px;
+    min-height: 525px;   
+}
+
+.feat-posts .thumbnail,
+.feat-portfolio .thumbnail {
     border-color: #777;
 }
 
@@ -571,9 +549,15 @@ footer .footer-below {
     text-transform: capitalize;
 }
 
-.about-intro ul {
+.about-intro ul,
+.pf-single ul,
+.pf-single ol {     
+    font-size: 1.2em;
+}
+
+.about-intro ul,
+.pf-single ul {
     list-style: square;
-    font-size: 1.15em;
 }
 
 .client-list {
