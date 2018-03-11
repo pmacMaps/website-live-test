@@ -128,7 +128,6 @@ header .intro-text .skills {
 .navbar-custom .navbar-nav li a {
   color: white;
 }
-
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
   color: white;
@@ -155,46 +154,6 @@ header .intro-text .skills {
   color: white;
   border-color: #18BC9C;
 }
-@media (min-width: 768px) {
-  .navbar-custom {
-    padding: 25px 0;
-    -webkit-transition: padding 0.3s;
-    -moz-transition: padding 0.3s;
-    transition: padding 0.3s;
-  }
-  .navbar-custom .navbar-brand {
-    font-size: 2em;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  .navbar-custom.affix {
-    padding: 10px 0;
-  }
-  .navbar-custom.affix .navbar-brand {
-    font-size: 1.5em;
-  }
-}
-section {
-  padding: 100px 0;
-}
-section h2 {
-  margin: 0;
-  font-size: 3em;
-}
-section.success {
-  background: #18BC9C;
-  color: white;
-}
-@media (max-width: 767px) {
-  section {
-    padding: 75px 0;
-  }
-  section.first {
-    padding-top: 75px;
-  }
-}
-
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
@@ -229,6 +188,17 @@ section.success {
   -moz-transition: top 0.3s ease,opacity 0.3s ease;
   -ms-transition: top 0.3s ease,opacity 0.3s ease;
   transition: top 0.3s ease,opacity 0.3s ease;
+}
+section {
+  padding: 100px 0;
+}
+section h2 {
+  margin: 0;
+  font-size: 3em;
+}
+section.success {
+  background: #18BC9C;
+  color: white;
 }
 .floating-label-form-group:not(:first-child) {
   padding-left: 14px;
@@ -518,6 +488,10 @@ footer .footer-below {
     margin-bottom: 25px;
 }
 
+.portfolio-item button {
+    font-size: 1.25em;
+}
+
 /* Featured Posts */
 .feat-posts .thumbnail {
     min-height: 525px;   
@@ -525,11 +499,11 @@ footer .footer-below {
 
 .feat-posts .thumbnail,
 .feat-portfolio .thumbnail {
-    border-color: #777;
+    border-color: #555;
 }
 
 .feat-posts .thumbnail hr {
-    border-top-color: #777;
+    border-top-color: #555;
 }
 
 
@@ -647,4 +621,123 @@ body.pf-single .pf-link {
 
 body.pf-single .pf-link > .btn {
     font-size: 2em;
+}
+
+/* Media Queries */
+@media screen and (max-width:767px) {
+  section,
+  #home-portfolio,
+  .client-list {
+    padding: 75px 0;
+  }
+  
+    section.first {
+    padding-top: 75px;
+  }
+    
+    /* Home Page */
+    .home-intro {
+        margin-top: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .home-intro img,
+    .about-intro img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    
+    .home-intro p {
+        margin-top: 30px;
+        font-size: 1.75em;
+    }
+     
+    .feat-posts .col-sm-4,
+    #home-portfolio .portfolio-item,
+    body.portfolio .portfolio-item {
+        margin-bottom: 50px;
+    }
+    
+    .feat-posts .col-sm-4:last-child,
+    #home-portfolio .portfolio-item:last-child,
+    body.portfolio .portfolio-item:last-child {
+        margin-bottom: 0;
+    }
+    
+    #home-portfolio {
+        margin-top: 0;
+    }
+    
+    .portfolio-item button {
+        margin-top: 30px;
+    }
+    
+    .social-footer .fa {
+        font-size: 4em;
+    }
+    
+    /* About */
+    .about-intro {
+        margin-top: 15px;
+    }
+    
+    .about-intro p {
+        margin-top: 20px;
+    }
+    
+    .about-intro button {
+        margin: 25px 0;
+    }
+    
+    .about-intro li {
+        margin-top: 15px;
+    }
+    
+    .client-list {
+        text-align: center;
+    }
+    
+    .client-list h2 {
+        font-size: 2.5em;
+    }
+    
+    /* Portfolio */
+    #mapsWeb {
+        margin-top: 60px;
+        padding: 25px 0;
+    }
+    
+    body.portfolio h2 {
+        font-size: 2em;
+    }
+    
+    body.portfolio h3 {
+        font-size: 1.5em;
+    }
+    
+    #mapsPrint .portfolio-item .img-container {
+        min-height: 0;
+    }
+}
+
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom.affix {
+    padding: 10px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
 }
