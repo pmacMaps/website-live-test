@@ -16,6 +16,12 @@ ul,
 ol {
   font-size: 1.25em;
 }
+li {
+    margin-bottom: 10px;
+}
+li:last-child {
+    margin-bottom: auto;
+}
 p.small {
   font-size: 16px;
 }
@@ -115,9 +121,8 @@ header .intro-text .skills {
   }
 }
 
-
 .navbar-custom li a {
-    font-size: 1.35em;
+    font-size: 1.5em;
 }
 
 .navbar-custom a:focus {
@@ -160,9 +165,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #18BC9C;
+  background-color: #000;
   color: white;
-  border-color: #18BC9C;
+  border-color: #000;
 }
 .floating-label-form-group {
   position: relative;
@@ -641,7 +646,6 @@ body.pf-single .pf-link > .btn {
     font-size: 2em;
 }
 
-/* Media Queries */
 @media screen and (max-width:768px) {
   a {
         text-decoration: underline;
@@ -650,6 +654,16 @@ body.pf-single .pf-link > .btn {
     nav a {
         text-decoration: none;
     }
+    
+    .navbar-brand {
+        font-size: 2em;
+    }
+    
+    /*
+    .navbar-custom li a {
+        font-size: 1.5em;
+    }
+    */
     
   section,
   #home-portfolio,
@@ -679,13 +693,13 @@ body.pf-single .pf-link > .btn {
         font-size: 1.75em;
     }
      
-    .feat-posts .col-sm-4,
+    .feat-posts .col-md-4,
     #home-portfolio .portfolio-item,
     body.portfolio .portfolio-item {
         margin-bottom: 50px;
     }
     
-    .feat-posts .col-sm-4:last-child,
+    .feat-posts .col-md-4:last-child,
     #home-portfolio .portfolio-item:last-child,
     body.portfolio .portfolio-item:last-child {
         margin-bottom: 0;
@@ -744,6 +758,17 @@ body.pf-single .pf-link > .btn {
     
     #mapsPrint .portfolio-item .img-container {
         min-height: 0;
+    }
+}
+
+/* Media Queries */
+@media screen and (max-width:600px) {
+    .navbar-brand {
+        font-size: 1.25em;
+    }
+    
+    .navbar-custom li a {
+        font-size: 1.05em;
     }
 }
 
