@@ -32,7 +32,9 @@ a {
 a:hover,
 a:focus,
 a:active,
-a.active {
+a.active,
+button.close:hover,
+button.close:focus {
     color: #006400;
 }
 h1,
@@ -412,7 +414,12 @@ footer .footer-below {
 }
 
 /* Links & Buttons */
-.btn-primary {
+button.close {
+    opacity: 1;
+}
+
+.btn-primary,
+#emailModal div.modal-footer button.btn.btn-default {
   color: white;
   background-color: #6C815E;
   border-color: #000;
@@ -430,7 +437,9 @@ footer .footer-below {
 .btn-primary:active:hover,
 .btn-primary:active:focus,
 .btn-primary.active,
-.open .dropdown-toggle.btn-primary {
+.open .dropdown-toggle.btn-primary,
+#emailModal div.modal-footer button.btn.btn-default:hover,
+#emailModal div.modal-footer button.btn.btn-default:focus {
   color: white;
   background-color: #000;
   border-color: #000;
