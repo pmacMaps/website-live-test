@@ -659,10 +659,6 @@ body.pf-single .pf-link > .btn {
 }
 
 @media screen and (max-width:768px) {
-  a {
-        text-decoration: underline;
-    }
-    
     nav a {
         text-decoration: none;
     }
@@ -830,6 +826,9 @@ body.pf-single .pf-link > .btn {
 }
 
 @media screen and (max-width: 1024px) {
+     a {
+        text-decoration: underline;
+    }
     .navbar-header {
         float: none;
     }
