@@ -520,8 +520,9 @@ body.portfolio footer hr {
     margin-bottom: 25px;
 }
 
-.portfolio-item button {
+.portfolio-item a.btn-primary {
     font-size: 1.25em;
+    width: 150px;
 }
 
 /* Featured Posts */
@@ -544,7 +545,7 @@ body.portfolio footer hr {
     margin-top: 50px;     
 }
 
-.about-intro button {
+.about-intro a.btn-primary {
     margin: 50px auto;
     font-size: 1.25em;
 }
@@ -595,7 +596,7 @@ body.portfolio .feat-portfolio {
     padding: 50px 0px;
 }
 
-body.portfolio .portfolio-item div.caption a > button {
+body.portfolio .portfolio-item div.caption a.btn-primary {
     font-size: 1.25em;
 }
 
@@ -642,36 +643,17 @@ body.pf-single section {
     min-height: 150px;
 }
 
-/* Use to constrain size of images for portfolio items
-.img-container .img-responsive {
-    
-}
-*/
-
 body.pf-single .pf-link {
     display: block;
-    margin-top: 25px;
-    margin-bottom: 50px;
-}
-
-body.pf-single .pf-link > .btn {
-    font-size: 2em;
+    width: 300px;
+    margin: 25px auto 50px auto;    
+    font-size: 2em;    
 }
 
 @media screen and (max-width:768px) {
-    nav a {
-        text-decoration: none;
-    }
-    
     .navbar-brand {
         font-size: 2em;
-    }
-    
-    /*
-    .navbar-custom li a {
-        font-size: 1.5em;
-    }
-    */
+    }    
     
   section,
   #home-portfolio,
@@ -717,7 +699,7 @@ body.pf-single .pf-link > .btn {
         margin-top: 0;
     }
     
-    .portfolio-item button {
+    .portfolio-item a.btn-primary {
         margin-top: 30px;
     }
     
@@ -734,7 +716,7 @@ body.pf-single .pf-link > .btn {
         margin-top: 20px;
     }
     
-    .about-intro button {
+    .about-intro a.btn-primary {
         margin: 25px 0;
     }
     
@@ -786,6 +768,11 @@ body.pf-single .pf-link > .btn {
     .navbar-custom li a {
         font-size: 1.05em;
     }
+    
+    body.pf-single .pf-link,
+    .portfolio-item a.btn-primary {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 769px) {
@@ -829,6 +816,12 @@ body.pf-single .pf-link > .btn {
      a {
         text-decoration: underline;
     }
+    
+    nav a,
+    a.btn-primary {
+        text-decoration: none;
+    }
+    
     .navbar-header {
         float: none;
     }
