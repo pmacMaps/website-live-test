@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Integrating ArcGIS Services with Leaflet.js",
+        "event": "GeoDev Summit",
+        "year": 2018,
+        "url": "/presentations/esri-leaflet-geodev-summit.html"
+    },
+    {
+        "title": "Automating Workflows with Python",
+        "event": "Pennsylvania GIS Conference",
+        "year": 2017,
+        "url": "/assets/documents/automating-workflows-python-scripts-pa-gis-conference-2017.pdf"
+    },
+    {
+        "title": "An Introduction to GeoJSON",
+        "event": "Central Pennsylvania GIS Day",
+        "year": 2016,
+        "url": "/intro-geojson-gis-day-2016/"
+    }
+]
