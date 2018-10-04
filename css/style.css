@@ -470,7 +470,7 @@ body.portfolio footer hr {
     margin-top: 100px; 
     padding-top: 125px;
     padding-bottom: 125px;
-    background: url(../images/pexels-photo-129882-transparent.jpeg) no-repeat bottom center fixed; 
+    background: url(/assets/images/pexels-photo-129882-transparent.jpeg) no-repeat bottom center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -489,7 +489,7 @@ body.portfolio footer hr {
 #home-portfolio {
     padding-top: 125px;
     padding-bottom: 125px;
-    background: url(../images/skyline-buildings-new-york-skyscrapers-transparent.jpg) no-repeat bottom center fixed; 
+    background: url(/assets/images/skyline-buildings-new-york-skyscrapers-transparent.jpg) no-repeat bottom center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -564,7 +564,7 @@ body.portfolio footer hr {
 .client-list {
     padding-top: 125px;
     padding-bottom: 125px;    
-    background: url(../images/herring-cove-beach-sunset-transparent.JPG) no-repeat bottom center fixed; 
+    background: url(/assets/images/herring-cove-beach-sunset-transparent.JPG) no-repeat bottom center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
