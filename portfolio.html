@@ -15,7 +15,7 @@ permalink: /portfolio/
             </div>
         </div>
         <div class="row">
-            {% for project in site.data.projects.webMaps.json %}
+            {% for project in site.data.projects.webMaps %}
                 {% include project-teaser.html title=project.title image=project.image alt=project.image-alt teaser=project.teaser url=project.url  %}
             {% endfor %}
         </div>

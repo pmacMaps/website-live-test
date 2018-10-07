@@ -10,12 +10,14 @@
         "title": "Cumberland County Recycling &#38; Disposal Map",
         "image": "rd-map-screenshot.png",
         "image-alt": "screenshot of the Residential Recycling & Disposal web mapp application",
-        "url": "/portfolio/product/recycling-disposal-map" 
+        "url": "/portfolio/product/recycling-disposal-map",
+        "teaser": "This web map application was developed using Leaflet.js to assist residents of Cumberland County learn about solid waste disposal and recycling in ther municipality.  The map's theme is based upon the BootLeaf project."
     },
     {
         "title": "PAMAGIC Members Map",
         "image": "pmg-members-map-screenshot.png",
         "image-alt": "screen shot of the PaMAGIC members web map application",
-        "url": "/portfolio/product/pamagic-members-map"
+        "url": "/portfolio/product/pamagic-members-map",
+        "teaser": "This interactive web map showcases members of the Pennsylvania Mapping and Geographic Consortium.  It was built using Leaflet.js and the Esri Calcite Maps theme."
     }
 ]
