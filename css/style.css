@@ -1,0 +1,851 @@
+/*!
+ * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /*font-family: Verdana,Geneva,sans-serif;*/
+  overflow-x: hidden;  
+}
+p {
+    margin-bottom: 20px;
+}
+p,
+ul,
+ol {
+  font-size: 1.25em;
+}
+li {
+    margin-bottom: 10px;
+}
+li:last-child {
+    margin-bottom: auto;
+}
+p.small {
+  font-size: 16px;
+}
+a {
+  color: #0645AD;
+  outline: none;
+}
+a:hover,
+a:focus,
+a:active,
+a.active,
+button.close:hover,
+button.close:focus {
+    color: #006400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+hr.star-light,
+hr.star-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+hr.star-light:after,
+hr.star-primary:after {
+  content: "\f005";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+}
+hr.star-light {
+  border-color: white;
+}
+hr.star-light:after {
+  background-color: #18BC9C;
+  color: white;
+}
+hr.star-primary {
+  border-color: #2C3E50;
+}
+hr.star-primary:after {
+  background-color: white;
+  color: #2C3E50;
+}
+hr {
+    border-top-color: #999;
+}
+.img-centered {
+  margin: 0 auto;
+}
+header {
+  text-align: center;
+  background: #18BC9C;
+  color: white;
+}
+header img {
+  display: block;
+  margin: 0 auto 20px;
+}
+header .intro-text .name {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2em;
+}
+header .intro-text .skills {
+  font-size: 1.25em;
+  font-weight: 300;
+}
+@media (min-width: 768px) {
+ header .intro-text .name {
+    font-size: 4.75em;
+  }
+  header .intro-text .skills {
+    font-size: 1.75em;
+  }
+}
+
+.navbar-custom li a {
+    font-size: 1.5em;
+}
+
+.navbar-custom a:focus {
+  outline: none;
+}
+.navbar-custom .navbar-brand {
+  color: white;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: white;
+}
+.navbar-custom .navbar-nav {
+  letter-spacing: 1px;
+}
+.navbar-custom .navbar-nav li a {
+  color: white;
+}
+.navbar-custom .navbar-nav li a:focus,
+.navbar-custom .navbar-nav li a:active {
+  color: white;
+}
+.navbar-custom .navbar-nav li.active a {
+  color: white;
+  background: #18BC9C;
+}
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+  color: white;
+  background: #18BC9C;
+}
+.navbar-custom .navbar-toggle {
+  color: white;
+  text-transform: uppercase;
+  font-size: 10px;
+  border-color: white;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #000;
+  color: white;
+  border-color: #000;
+}
+.floating-label-form-group {
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #eeeeee;
+}
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+  z-index: 1;
+  position: relative;
+  padding-right: 0;
+  padding-left: 0;
+  border: none;
+  border-radius: 0;
+  font-size: 1.5em;
+  background: none;
+  box-shadow: none !important;
+  resize: none;
+}
+.floating-label-form-group label {
+  display: block;
+  z-index: 0;
+  position: relative;
+  top: 2em;
+  margin: 0;
+  font-size: 0.85em;
+  line-height: 1.764705882em;
+  vertical-align: middle;
+  vertical-align: baseline;
+  opacity: 0;
+  -webkit-transition: top 0.3s ease,opacity 0.3s ease;
+  -moz-transition: top 0.3s ease,opacity 0.3s ease;
+  -ms-transition: top 0.3s ease,opacity 0.3s ease;
+  transition: top 0.3s ease,opacity 0.3s ease;
+}
+section {
+  padding: 100px 0;
+}
+section h2 {
+  margin: 0;
+  font-size: 3em;
+}
+section.success {
+  background: #18BC9C;
+  color: white;
+}
+.floating-label-form-group:not(:first-child) {
+  padding-left: 14px;
+  border-left: 1px solid #eeeeee;
+}
+.floating-label-form-group-with-value label {
+  top: 0;
+  opacity: 1;
+}
+.floating-label-form-group-with-focus label {
+  color: #18BC9C;
+}
+form .row:first-child .floating-label-form-group {
+  border-top: 1px solid #eeeeee;
+}
+footer {
+  color: white;
+}
+footer h3 {
+  margin-bottom: 30px;
+}
+footer .footer-above {
+  padding-top: 50px;
+  background-color: #2C3E50;
+}
+footer .footer-col {
+  margin-bottom: 50px;
+}
+footer .footer-below {
+  padding: 25px 0;
+  background-color: #233140;
+}
+.btn-outline {
+  color: white;
+  font-size: 20px;
+  border: solid 2px white;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: #18BC9C;
+  background: white;
+  border: solid 2px white;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #2C3E50;
+  border-color: #2C3E50;
+}
+.btn-primary .badge {
+  color: #2C3E50;
+  background-color: white;
+}
+.btn-success {
+  color: white;
+  background-color: #18BC9C;
+  border-color: #18BC9C;
+  font-weight: 700;
+}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+  color: white;
+  background-color: #128f76;
+  border-color: #11866f;
+}
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+  background-image: none;
+}
+.btn-success.disabled,
+.btn-success[disabled],
+fieldset[disabled] .btn-success,
+.btn-success.disabled:hover,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success:hover,
+.btn-success.disabled:focus,
+.btn-success[disabled]:focus,
+fieldset[disabled] .btn-success:focus,
+.btn-success.disabled:active,
+.btn-success[disabled]:active,
+fieldset[disabled] .btn-success:active,
+.btn-success.disabled.active,
+.btn-success[disabled].active,
+fieldset[disabled] .btn-success.active {
+  background-color: #18BC9C;
+  border-color: #18BC9C;
+}
+.btn-success .badge {
+  color: #18BC9C;
+  background-color: white;
+}
+.btn-social {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 45px;
+}
+.btn:focus,
+.btn:active,
+.btn.active {
+  outline: none;
+}
+.portfolio-item a {
+    text-decoration: none;
+}
+.scroll-top {
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+  width: 50px;
+  height: 50px;
+  z-index: 1049;
+}
+.scroll-top .btn {
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  line-height: 28px;
+}
+.scroll-top .btn:focus {
+  outline: none;
+}
+
+/*** Header & Footer ***/
+.navbar-custom,
+footer .footer-below {
+    background: #6C815E;
+}
+
+.navbar-custom {  
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;  
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+}
+
+.navbar-custom .navbar-nav li a,
+.navbar-custom .navbar-brand,
+.social-footer a {
+    -webkit-transition: color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;  
+}
+
+.navbar-custom .navbar-brand,
+.social-footer a {
+    color: #fff;    
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-nav li a:hover,
+.navbar-custom .navbar-nav li a:focus,
+/* Social icons in footer */
+.social-footer a:hover,
+.social-footer a:focus {
+    color: #000;
+}
+
+.navbar-custom .navbar-nav li a:hover,
+.navbar-custom .navbar-nav li a:focus {
+    border-bottom: solid 2px #000;
+    
+}
+
+/* Links & Buttons */
+button.close {
+    opacity: 1;
+}
+
+.btn-primary,
+#emailModal div.modal-footer button.btn.btn-default {
+  color: white;
+  background-color: #6C815E;
+  border-color: #000;
+  font-weight: 700;
+  -webkit-transition: background 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  -o-transition: background 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:active:hover,
+.btn-primary:active:focus,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary,
+#emailModal div.modal-footer button.btn.btn-default:hover,
+#emailModal div.modal-footer button.btn.btn-default:focus {
+  color: white;
+  background-color: #000;
+  border-color: #000;
+}
+
+/* Footer */
+.social-footer .fa {
+    font-size: 2.5em;
+}
+
+.social-footer span {
+    margin: 0 20px;
+}
+
+.social-footer hr {
+    width: 50%;
+}
+
+
+/*** Homepage ***/
+footer hr,
+body.portfolio footer hr {
+    border-top-color: #fff;
+}
+
+/* About Me Summary */
+.home-intro {
+    margin-top: 100px; 
+    padding-top: 125px;
+    padding-bottom: 125px;
+    background: url(/assets/images/pexels-photo-129882-transparent.jpeg) no-repeat bottom center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+.home-intro p {
+    font-size: 2em;    
+}
+
+.home-intro img {
+   margin-top: -45px;
+}
+
+/* Featured Portfolio Items */
+#home-portfolio {
+    padding-top: 125px;
+    padding-bottom: 125px;
+    background: url(/assets/images/skyline-buildings-new-york-skyscrapers-transparent.jpg) no-repeat bottom center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;   
+}
+
+.feat-portfolio h2,
+.prof-services h2,
+.feat-posts h2,
+.client-list h2 {
+    margin-bottom: 50px;
+}
+
+.feat-portfolio .thumbnail {
+    min-height: 650px;      
+}
+
+.feat-portfolio .thumbnail,
+.prof-services .thumbnail,
+.feat-posts .thumbnail {
+    padding: 25px;
+}
+
+.feat-portfolio .thumbnail h3,
+.feat-portfolio .thumbnail img,
+.prof-services h3,
+.prof-services i {
+    margin-bottom: 25px;
+}
+
+.portfolio-item a.btn-primary {
+    font-size: 1.25em;
+    width: 150px;
+}
+
+/* Featured Posts */
+.feat-posts .thumbnail {
+    min-height: 525px;   
+}
+
+.feat-posts .thumbnail,
+.feat-portfolio .thumbnail {
+    border-color: #555;
+}
+
+.feat-posts .thumbnail hr {
+    border-top-color: #555;
+}
+
+
+/*** About Page ***/
+.about-intro {
+    margin-top: 50px;     
+}
+
+.about-intro a.btn-primary {
+    margin: 50px auto;
+    font-size: 1.25em;
+}
+
+.about-intro h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.about-intro ul,
+.pf-single ul {
+    list-style: square;
+}
+
+.client-list {
+    padding-top: 125px;
+    padding-bottom: 125px;    
+    background: url(/assets/images/herring-cove-beach-sunset-transparent.JPG) no-repeat bottom center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+
+.client-list .row {
+    margin: 0 auto;
+}
+
+.client-list h4 {
+    display: inline-block;
+    margin: 15px 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+
+/*** Portfolio Page ***/
+.portfolio-main {
+    /*min-height: 700px;*/
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+
+body.portfolio .feat-portfolio {
+    padding: 50px 0px;
+}
+
+body.portfolio .portfolio-item div.caption a.btn-primary {
+    font-size: 1.25em;
+}
+
+body.portfolio hr {
+    border-top-width: 2px;    
+    border-top-color: #555;
+}
+
+/* Portfolio Groups */
+body.pf-single section {
+    margin-top: 50px;
+}
+
+#mapsWeb {
+    margin-top: 125px;
+}
+
+#mapsPrint .portfolio-item h3,
+#mapsWeb .portfolio-item h3 {
+    min-height: 80px;
+}
+
+#customGIS .portfolio-item h3 {
+    min-height: 60px;
+}
+
+#mapsPrint .portfolio-item div.caption p {
+    min-height: 175px;
+}
+
+#mapsPrint .portfolio-item .img-container {
+    min-height: 250px;
+}
+
+#mapsWeb .portfolio-item div.caption p {
+    min-height: 225px;
+}
+
+#customGIS .portfolio-item div.caption p {
+    min-height: 150px;
+}
+
+#webDev .portfolio-item div.caption p {
+    min-height: 150px;
+}
+
+body.pf-single .pf-link {
+    display: block;
+    width: 300px;
+    margin: 25px auto 50px auto;    
+    font-size: 2em;    
+}
+
+@media screen and (max-width:768px) {
+    .navbar-brand {
+        font-size: 2em;
+    }    
+    
+  section,
+  #home-portfolio,
+  .client-list {
+    padding: 75px 0;
+  }
+  
+    section.first {
+    padding-top: 75px;
+  }
+    
+    /* Home Page */
+    .home-intro {
+        margin-top: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .home-intro img,
+    .about-intro img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    
+    .home-intro p {
+        margin-top: 30px;
+        font-size: 1.75em;
+    }
+     
+    .feat-posts .col-md-4,
+    #home-portfolio .portfolio-item,
+    body.portfolio .portfolio-item {
+        margin-bottom: 50px;
+    }
+    
+    .feat-posts .col-md-4:last-child,
+    #home-portfolio .portfolio-item:last-child,
+    body.portfolio .portfolio-item:last-child {
+        margin-bottom: 0;
+    }
+    
+    #home-portfolio {
+        margin-top: 0;
+    }
+    
+    .portfolio-item a.btn-primary {
+        margin-top: 30px;
+    }
+    
+    .social-footer .fa {
+        font-size: 4em;
+    }
+    
+    /* About */
+    .about-intro {
+        margin-top: 15px;
+    }
+    
+    .about-intro p {
+        margin-top: 20px;
+    }
+    
+    .about-intro a.btn-primary {
+        margin: 25px 0;
+    }
+    
+    .about-intro li {
+        margin-top: 15px;
+    }
+    
+    .client-list {
+        text-align: center;
+    }
+    
+    .client-list h2 {
+        font-size: 2.5em;
+    }
+    
+    /* Portfolio */
+    body.pf-single section {
+        margin-top: 0;
+    }
+    
+    body.portfolio .feat-portfolio {
+        padding: 25px 0;
+    }
+    
+    #mapsWeb {
+        margin-top: 60px;
+        padding: 25px 0;
+    }
+    
+    body.portfolio h2 {
+        font-size: 2em;
+    }
+    
+    body.portfolio h3 {
+        font-size: 1.5em;
+    }
+    
+    #mapsPrint .portfolio-item .img-container {
+        min-height: 0;
+    }
+}
+
+/* Media Queries */
+@media screen and (max-width:600px) {
+    .navbar-brand {
+        font-size: 1.25em;
+    }
+    
+    .navbar-custom li a {
+        font-size: 1.05em;
+    }
+    
+    body.pf-single .pf-link,
+    .portfolio-item a.btn-primary {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+  .navbar-custom {
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom.affix {
+    padding: 10px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+  .navbar-custom .navbar-toggle {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #mapsWeb .portfolio-item div.caption p,
+    #customGIS .portfolio-item div.caption p,
+    #mapsPrint .portfolio-item div.caption p,
+    #webDev .portfolio-item div.caption p,    
+    .feat-portfolio .thumbnail,
+    #mapsPrint .portfolio-item h3,
+    #customGIS .portfolio-item h3,
+    #mapsWeb .portfolio-item h3 {
+        min-height: 0;
+    }    
+}
+
+@media screen and (max-width: 1024px) {
+     a {
+        text-decoration: underline;
+    }
+    
+    nav a,
+    a.btn-primary {
+        text-decoration: none;
+    }
+    
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
