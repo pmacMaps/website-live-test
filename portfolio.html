@@ -54,4 +54,18 @@ permalink: /portfolio/
     </div>
 </section>
 <div class="container"><hr /></div>
-        
+<!-- Websites -->
+<section id="webDev" class="feat-portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Web Development</h2>                        
+            </div>
+        </div>
+        <div class="row">
+            {% for project in site.data.projects.webDevelopment %}
+                {% include project-teaser.html title=project.title image=project.image alt=project.image-alt teaser=project.teaser url=project.url  %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
