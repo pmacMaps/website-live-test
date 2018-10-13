@@ -163,7 +163,6 @@ hr {
   line-height: 1.764705882em;
   vertical-align: middle;
   vertical-align: baseline;
-  opacity: 0;
   -webkit-transition: top 0.25s ease,opacity 0.25s ease;
   -moz-transition: top 0.25s ease,opacity 0.25s ease;
   -ms-transition: top 0.25s ease,opacity 0.25s ease;
@@ -215,7 +214,6 @@ footer .footer-below {
   color: white;
   font-size: 20px;
   border: solid 2px white;
-  background: transparent;
   transition: all 0.25s ease-in-out;
   margin-top: 15px;
 }

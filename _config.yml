@@ -8,7 +8,8 @@
 # Site settings
 title: Patrick N. McKinney, Cartographer &#38; Developer
 description: Patrick N. McKinney is a cartographer and developer interested in telling the stories of communities through maps and technology.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "/website-live-test" # the subpath of your site, e.g. /blog
+url: "https://pnmcartodesign.com" # the base hostname & protocol for your site
+>>>>>>> cb423f7afc94fa8cb1fddc9e42512f8d8b458dab
 # Build settings
 markdown: kramdown
