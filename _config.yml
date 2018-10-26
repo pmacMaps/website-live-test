@@ -9,6 +9,6 @@
 title: Patrick N. McKinney, Cartographer &#38; Developer
 description: Patrick N. McKinney is a cartographer and developer interested in telling the stories of communities through maps and technology.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
