@@ -1,29 +1,26 @@
 ---
-layout: page
-title: Integrating ArcGIS Services with Leaflet.jsut
+layout: special
+title: Integrating ArcGIS Services with Leaflet.js
 page: impress
-description: Presentation slides for the Leaflet.js and Esri Services session at the 2018 GeoDev Summit held at Harrisburg University of Science and Technology.
+description: Presentation slides for the Leaflet.js and Esri Services session at the 2018 GeoDev Summit held at Harrisburg University of Science and Technology. Patrick N. McKinney is a cartographer (GIS) and developer interested in telling the stories of communities through maps and technology.
 permalink: /presentations/integrating-arcgis-and-leaflet
 ---
 
-<!doctype html>
-<html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Integrating ArcGIS Services with Leaflet.js</title>    
+    <title>{{ page.title }}</title>    
     <!-- meta tags -->
     <!--<meta name="viewport" content="width=1024" /> -->
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=yes">
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" /> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">    
-    <meta name="description" content="Presentation slides for the Leaflet.js & Esri Services session at the 2018 GeoDev Summit held at Harrisburg University of Scient & Technology." />
-    <meta name="author" content="Patrick McKinney, Cumberland County GIS" />    
+    <meta name="description" content="{{ page.description }}" />        
     <!-- Stylesheets -->
     <!-- Google Fonts -->
     <link href="//fonts.googleapis.com/css?family=Merriweather%7CRoboto" rel="stylesheet" />
     <!-- custom styles -->
-    <link href="../assets/css/presentations/esri-leaflet-geodev-summit.css" rel="stylesheet" />  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <link href="/css/presentations/esri-leaflet-geodev-summit.css" rel="stylesheet" />  <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122049296-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -119,7 +116,6 @@ permalink: /presentations/integrating-arcgis-and-leaflet
         document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
     }
     </script>    
-    <script src="../assets/libs/impress.js-0.6.0/impress.js"></script>
+    <script src="{{ site.baseurl}}/js/impress.js-0.6.0/impress.js"></script>
     <script>impress().init();</script>
 </body>
-</html>
