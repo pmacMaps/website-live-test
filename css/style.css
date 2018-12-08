@@ -170,7 +170,7 @@ hr {
   transition: top 0.25s ease,opacity 0.25s ease;
 }
 section {
-  padding: 100px 0;
+  padding: 75px 0;
 }
 section h2 {
   margin: 0;
@@ -570,11 +570,11 @@ body.portfolio hr {
 
 /* Portfolio Groups */
 body.pf-single section {
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 #mapsWeb {
-    margin-top: 125px;
+    margin-top: 75px;
 }
 
 #mapsPrint .portfolio-item h3,
