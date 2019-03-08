@@ -7,19 +7,16 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1"> 
                     <span class="sr-only">Toggle navigation</span> Menu
 				</button>
-                <a class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}">Patrick N. McKinney</a>
+                <a class="navbar-brand" href="{{ site.url }}">Patrick N. McKinney</a>
             </div>
             <!-- Toggable Nav -->
             <div class="collapse navbar-collapse" id="navbar-collapse-1"> 
-                <ul class="nav navbar-nav navbar-right">                       
+                <ul class="nav navbar-nav navbar-right">                   
                     <li>
-                        <a href="{{ "/" | prepend: site.baseurl }}">Home</a>
+                        <a href="{{ site.url }}/about/">About</a>
                     </li>
                     <li>
-                        <a href="{{ "/about/" | prepend: site.baseurl }}">About</a>
-                    </li>
-                    <li>
-                        <a href="{{ "/portfolio/" | prepend: site.baseurl }}">Portfolio</a>
+                        <a href="{{ site.url }}/portfolio/">Portfolio</a>
                     </li>
                     <li>
                         <a href="https://pnmcartodesign.wordpress.com/" target="_blank">Blog</a>
