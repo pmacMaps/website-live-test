@@ -1,11 +1,19 @@
 'use strict';
 
-var footerSocialImage = $('footer img.social-icon.img-responsive');
-
-footerSocialImage.mouseover(function() {
+function changeSocialIconColor() {
+	// get src attribute for element
 	var src = $(this).attr('src');
-	console.log(src);
-	// test if black is icon
-	// if it is, make it regular
-	// if it is not, make it black image
-});
+	
+	// change color to black or white on events
+	if (src.indexOf("black") >= 0) {
+		$(this).attr('src', src.replace("black", "white"));		
+	} else if (src.indexOf("white") >= 0) {
+		$(this).attr('src', src.replace("white", "black"));		
+	}
+}
+
+// social icons
+var footerSocialImage = $('footer img.social-icon.img-responsive');
+// bind events
+footerSocialImage.mouseenter(changeSocialIconColor);
+footerSocialImage.mouseleave(changeSocialIconColor);
