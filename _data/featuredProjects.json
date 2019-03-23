@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Esri Shortlist Story Map Customizations",
+        "url": "https://github.com/pmacMaps/shortlist-storytelling-template-js",
+        "teaser": "This GitHub repository includes the customizations I've made to the Esri Shortlist Story Map application.  Two of the  enhancements include a dynamic map legend and last data update text.",
+        "image": "shortlist-app-screenshot.png",
+        "image-alt": "creen shot of an Esri Shortlist Story Map web map application"
+    },
+    {
+        "title": "Camp Swatara Hiking Trails Map",
+        "url": "/portfolio/product/camp-swatara-hiking-trails",
+        "teaser": "Camp Swatara is a family and summer camp located in southeastern Pennsylvania.  The focus of this project was redesigning the hiking trails map with more accurate mapping of the trails.",
+        "image": "CampSwatara-HikingTrails-Thumbnail.png",
+        "image-alt": "Camp Swatara hiking trails map"
+    },
+    {
+        "title": "PaMAGIC Website",
+        "url": "/portfolio/product/pamagic",
+        "teaser": "I led the development of the PaMAGIC website on the Drupal platform.  I am the primary website admin, handling website updates and user management.",
+        "image": "pamagic-website-screenshot.png",
+        "image-alt": "screenshot of the PaMAGIC website"
+    }
+]
