@@ -1,23 +1,23 @@
 [
     {
-        "title": "Esri Shortlist Story Map Customizations",
-        "url": "https://github.com/pmacMaps/shortlist-storytelling-template-js",
-        "teaser": "This GitHub repository includes the customizations I've made to the Esri Shortlist Story Map application.  Two of the  enhancements include a dynamic map legend and last data update text.",
-        "image": "shortlist-app-screenshot.png",
-        "image-alt": "creen shot of an Esri Shortlist Story Map web map application"
+        "title": "Cumberland County Recycling &#38; Disposal Map",
+        "url": "/portfolio/product/recycling-disposal-map",
+        "teaser": "This web map application was developed using Leaflet.js to assist residents of Cumberland County learn about solid waste disposal and recycling in ther municipality.  The map's theme is based upon the BootLeaf project.",
+        "image": "rd-map-screenshot.png",
+        "image-alt": "screenshot of the Residential Recycling & Disposal web mapp application"       
     },
     {
-        "title": "Camp Swatara Hiking Trails Map",
-        "url": "/portfolio/product/camp-swatara-hiking-trails",
-        "teaser": "Camp Swatara is a family and summer camp located in southeastern Pennsylvania.  The focus of this project was redesigning the hiking trails map with more accurate mapping of the trails.",
-        "image": "CampSwatara-HikingTrails-Thumbnail.png",
-        "image-alt": "Camp Swatara hiking trails map"
+        "title": "South Middleton Township Official Map",
+        "url": "/portfolio/product/south-middleton-official-map",
+        "teaser": "This update to the existing Official Map included designing a visual hierarchy among thematic and reference layers, and developing a balanced system of labels for features.", 
+        "image": "sm-officialmap-snippet.PNG",
+        "image-alt": "screen shot of the South Middleton Township official map"        
     },
     {
-        "title": "PaMAGIC Website",
-        "url": "/portfolio/product/pamagic",
-        "teaser": "I led the development of the PaMAGIC website on the Drupal platform.  I am the primary website admin, handling website updates and user management.",
-        "image": "pamagic-website-screenshot.png",
-        "image-alt": "screenshot of the PaMAGIC website"
+        "title": "Cumberland County Weeekly Data Updates",
+        "url": "/portfolio/product/weekly-data-updates",
+         "teaser": "Various python scripts have been developed using the Esri ArcPy library to automate weekly data update processes using Windows Scheduled Tasks.",
+        "image": "python-script-template-diagram.png",
+        "image-alt": "sketch diagram of the weekly data update script for Cumberland County"      
     }
 ]

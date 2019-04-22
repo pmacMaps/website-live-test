@@ -1,5 +1,13 @@
 [
     {
+        "title": "My Experience Contributing to Open Source Projects",
+        "date": "March 19, 2019",
+        "url": "https://pnmcartodesign.wordpress.com/2019/03/19/my-experience-contributing-to-open-source-projects/",
+        "featured-image": "black-and-white-conference-room-digital-nomad-1181400.jpeg",
+        "featured-image-alt": "people sitting around a table during a meeting",
+        "teaser": "I've been busy this year contributing to open source projects.  I wanted to share my experience with this important professional activity."
+    },
+    {
         "title": "How to Create a Featured Image Template for a Jekyll Blog Site",
         "date": "October 1, 2018",
         "url": "https://pnmcartodesign.wordpress.com/2018/10/01/how-to-create-a-featured-image-template-for-a-jekyll-blog-site/",
@@ -8,19 +16,11 @@
         "teaser": "This brief tutorial reviews how to create a blog post featured image template file for the Jekyll static site generator platform."
     },
     {
-        "title": "Esri Map Service Loading & Error Events in Leaflet.js",
-        "date": "February 8, 2018",
-        "url": "https://pnmcartodesign.wordpress.com/2018/02/08/esri-map-service-loading-error-events-in-leaflet-js/",
-        "featured-image": "codepen-esri-events-screenshot.png",
-        "featured-image-alt": "screen shot of a CodePen project",
-        "teaser": "I share a solution I developed for handling the success or failure of Esri REST services loading in a Leaflet.js web map."
-    },
-    {
-        "title": "Automating File Transfer from an FTP Site",
-        "date": "January 19, 2018",
-        "url": "https://pnmcartodesign.wordpress.com/2018/01/19/automating-file-transfer-from-an-ftp-site-with-python/",
-        "featured-image": "night-computer-hdd-hard-drive.jpg",
-        "featured-image-alt": "a computer hard drive",
-        "teaser": "You can automate many tasks with Python.  This article shows you how to automate downloading files from a FTP site."
+        "title": "Are You Thinking About Your Map Users",
+        "date": "July 19, 2018",
+        "url": "https://pnmcartodesign.wordpress.com/2018/07/19/are-you-thinking-about-your-map-users/",
+        "featured-image": "pexels-photo-109919.jpeg",
+        "featured-image-alt": "people crossing a street in a city",
+        "teaser": "When we are designing maps for print, or building custom geoprocessing tools, are we thinking about the people who will use these?  Are we looking at the map under the same conditions users will?"
     }
 ]
