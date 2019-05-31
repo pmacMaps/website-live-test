@@ -1,5 +1,11 @@
 [
     {
+        "title": "A Space For GIS Developers: Sharing Ideas and Fostering Collaboration",
+        "event": "Pennsylvania GIS Conference",
+        "year": 2019,
+        "url": "/assets/documents/A_Space_For_GIS_Developers_Sharing_Ideas_and_Fostering_Collaboration.pdf"
+    },
+    {
         "title": "Integrating ArcGIS Services with Leaflet.js",
         "event": "GeoDev Summit",
         "year": 2018,
