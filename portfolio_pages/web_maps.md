@@ -8,7 +8,7 @@ permalink: /portfolio/web-maps
 
 <!-- Main Content -->        
 <!-- Web Maps -->
-<section id="mapsWeb" class="feat-portfolio">
+<section class="feat-portfolio">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
