@@ -6,12 +6,11 @@ description: Patrick N. McKinney is a cartographer (GIS) and developer intereste
 permalink: /portfolio/python-scripting
 ---
 
-<!-- Custom GIS -->
 <section class="feat-portfolio">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Python SCripting</h2>                        
+                <h1>Python SCripting</h1>                        
             </div>
         </div>
         <div class="row">

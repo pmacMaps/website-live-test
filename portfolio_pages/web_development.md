@@ -6,12 +6,11 @@ description: Patrick N. McKinney is a cartographer (GIS) and developer intereste
 permalink: /portfolio/web-development
 ---
 
-<!-- Websites -->
 <section class="feat-portfolio">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Web Development</h2>                        
+                <h1>Web Development</h1>                        
             </div>
         </div>
         <div class="row">

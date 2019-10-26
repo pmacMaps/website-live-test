@@ -6,8 +6,6 @@ description: Patrick N. McKinney is a cartographer (GIS) and developer intereste
 permalink: /portfolio/web-maps
 ---
 
-<!-- Main Content -->        
-<!-- Web Maps -->
 <section class="feat-portfolio">
     <div class="container">
         <div class="row">
