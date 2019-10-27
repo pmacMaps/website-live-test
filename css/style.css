@@ -25,6 +25,9 @@ li:last-child {
 p.small {
   font-size: 16px;
 }
+article.post {
+  padding-top: 65px;
+}
 a {
   outline: none;
 }
@@ -470,10 +473,6 @@ body.portfolio footer hr {
     margin-top: 50px;
     padding-top: 100px;
     padding-bottom: 75px;
-}
-
-body.portfolio .feat-portfolio {
-    
 }
 
 body.portfolio .portfolio-item div.caption a.btn-primary {
