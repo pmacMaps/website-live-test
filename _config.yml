@@ -12,3 +12,4 @@ baseurl: "/website-live-test" # the subpath of your site, e.g. /blog
 url: "https://pnmcartodesign.com" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
+development: true

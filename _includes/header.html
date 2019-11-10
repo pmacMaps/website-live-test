@@ -16,10 +16,21 @@
                         <a href="{{ site.url }}/about/">About</a>
                     </li>
                     <li>
-                        <a href="{{ site.url }}/portfolio/">Portfolio</a>
-                    </li>
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Portfolio
+                            <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuPortfolio">
+                                <li><a href="{{ site.baseurl }}/portfolio/web-maps">Web Maps</a></li>
+                                <li><a href="{{ site.baseurl }}/portfolio/print-maps">Print Maps</a></li>
+                                <li><a href="{{ site.baseurl }}/portfolio/python-scripting">Python Scripting</a></li>
+                                <li><a href="{{ site.baseurl }}/portfolio/web-development">Web Development</a></li>                                
+                            </ul>
+                        </div>
+                    </li>                    
                     <li>
-                        <a href="https://pnmcartodesign.wordpress.com/" target="_blank">Blog</a>
+                        <a href="https://pnmcartodesign.wordpress.com/" target="_blank" rel="noreferrer">Blog</a>
                     </li>                        
                 </ul>
             </div>

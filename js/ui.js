@@ -1,5 +1,6 @@
 'use strict';
 
+// change color of social media icons
 function changeSocialIconColor() {
 	// get src attribute for element
 	var src = $(this).attr('src');
@@ -12,8 +13,23 @@ function changeSocialIconColor() {
 	}
 }
 
+// Make collapsed navigation scroll
+function mobileNavScroll() {
+	$(".navbar-collapse").css({maxHeight: $(window).height() - $(".navbar-header").height() + "px"});
+}
+
 // social icons
 var footerSocialImage = $('footer img.social-icon.img-responsive');
 // bind events
 footerSocialImage.mouseenter(changeSocialIconColor);
 footerSocialImage.mouseleave(changeSocialIconColor);
+
+
+/*** Event Listeners ***/
+$(document).ready(function() {
+	mobileNavScroll();
+});
+
+$(window).resize(function() {
+	mobileNavScroll();
+});
