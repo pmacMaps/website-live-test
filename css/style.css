@@ -60,7 +60,8 @@ hr {
 .img-centered {
   margin: 0 auto;
 }
-.navbar-custom li a {
+.navbar-custom li a,
+ul.navbar-nav > li > div.dropdown > button {
     font-size: 1.5em;
 }
 .navbar-custom a:focus {
@@ -78,7 +79,8 @@ hr {
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
 }
-.navbar-custom .navbar-nav li a {
+.navbar-custom .navbar-nav li a,
+ul.navbar-nav > li > div.dropdown > button {
   color: white;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -106,6 +108,11 @@ hr {
   background-color: #000;
   color: white;
   border-color: #000;
+}
+/* navigation dropdown */
+ul.navbar-nav > li > div.dropdown > button.btn.btn-default {
+  background: inherit;
+  border-width: 0;
 }
 .floating-label-form-group {
   position: relative;
@@ -238,7 +245,15 @@ footer .footer-below {
     background: #6C815E;
 }
 
+span.caret {
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 9px solid #fff;
+}
+
 .navbar-custom,
+ul.navbar-nav > li > div.dropdown > button,
+ul.navbar-nav > li > div.dropdown > span.caret,
 ul.navbar-nav > li > div.dropdown > ul.dropdown-menu > li > a {  
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;  
   text-transform: uppercase;
@@ -256,6 +271,27 @@ ul.navbar-nav > li > div.dropdown > ul.dropdown-menu > li > a {
     border-bottom: solid 2px #6C815E;
 }
 
+ul.navbar-nav > li > div.dropdown > button {
+  -webkit-transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -o-transition: color 0.25s ease-in-out;;
+  transition: color 0.25s ease-in-out;
+}
+
+ul.navbar-nav > li > div.dropdown > button > span.caret {
+  -webkit-transition: border-top-color 0.25s ease-in-out;
+  -moz-transition: border-top-color 0.25s ease-in-out;
+  -o-transition: border-top-color 0.25s ease-in-out;
+  transition: border-top-color 0.25s ease-in-out;
+}
+
+ul.navbar-nav > li > div.dropdown > button:hover > span.caret,
+ul.navbar-nav > li > div.dropdown > button:active > span.caret,
+#mainNav .open > .dropdown-toggle.btn-default:focus span.caret, 
+#mainNav .open > .dropdown-toggle.btn-default:hover span.caret {
+  border-top-color: #000;
+}
+
 .navbar-custom .navbar-brand,
 .social-footer a {
     color: #fff;    
@@ -265,7 +301,15 @@ ul.navbar-nav > li > div.dropdown > ul.dropdown-menu > li > a {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-nav li a:hover,
 .navbar-custom .navbar-nav li a:focus,
+ul.navbar-nav > li > div.dropdown > button:hover,
+ul.navbar-nav > li > div.dropdown > button:active,
+#mainNav .open > .dropdown-toggle.btn-default:focus, 
+#mainNav .open > .dropdown-toggle.btn-default:hover,
 ul.navbar-nav > li > div.dropdown > ul.dropdown-menu > li > a,
+ul.navbar-nav > li > div.dropdown > button:hover > span.caret,
+ul.navbar-nav > li > div.dropdown > button:active > span.caret,
+#mainNav .open > .dropdown-toggle.btn-default:focus span.caret, 
+#mainNav .open > .dropdown-toggle.btn-default:hover span.caret,
 /* Social icons in footer */
 .social-footer a:hover,
 .social-footer a:focus {
@@ -502,7 +546,7 @@ body.pf-single .pf-link {
     }    
     
     .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-      color: #000;
+      color: #fff;
     }
     
   section,
@@ -606,7 +650,8 @@ body.pf-single .pf-link {
         font-size: 1.25em;
     }
     
-    .navbar-custom li a {
+    .navbar-custom li a,
+    ul.navbar-nav > li > div.dropdown > button {
         font-size: 1.05em;
     }
     
