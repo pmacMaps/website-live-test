@@ -1,26 +1,26 @@
 [
     {
-        "title": "My Attempt To Make The Map Series StoryMap 'More Maps' Button More Intuitive",
-        "date": "September 12, 2019",
-        "url": "https://pnmcartodesign.wordpress.com/2019/09/12/my-attempt-to-make-the-map-series-storymap-more-maps-button-more-intuitive/",
-        "featured-image": "document-education-eyeglasses-336407.jpg",
-        "featured-image-alt": "eyeglasses resting on an open book",
-        "teaser": "I made some edits to the Esri StoryMap Map Series template to improve the user experience.  I share my solution for better informing users of the purpose of the button that opens a menu of additional map tabs."
+        "title": "How To Improve Image Accessibility for Esri Map Tour StoryMap Application",
+        "date": "October 29, 2019",
+        "url": "https://pnmcartodesign.wordpress.com/2019/10/29/how-to-improve-image-accessibility-for-esri-map-tour-storymap-application/",
+        "featured-image": "janis-oppliger-drhe-xf7wls-unsplash.jpg",
+        "featured-image-alt": "people holding a street map and pointing to a location on the map",
+        "teaser": "Providing the most accessible websites and browser-based applications should be a goal for every web developer.  I recently developed a solution for adding the alt attribute for img elements for the Esri Map Tour StoryMap application."
     },
     {
-        "title": "Esri Map Service Loading & Error Events in Leaflet.js",
-        "date": "February 8, 2018",
-        "url": "https://pnmcartodesign.wordpress.com/2018/02/08/esri-map-service-loading-error-events-in-leaflet-js/",
-        "featured-image": "codepen-esri-events-screenshot.png",
-        "featured-image-alt": "a screen-shot of a CodePen demo",
-        "teaser": "Hooking into the loading and error events of the Esri Leaflet library, you can add messages to users if a service fails to load on the map.  You can also create a loading screen that disappears after the services have loaded on the map."
+        "title": "Building A Leaflet.js Map App With A jQuery UI Date Picker",
+        "date": "July 29, 2019",
+        "url": "https://pnmcartodesign.wordpress.com/2019/07/29/building-a-leaflet-js-map-app-with-a-jquery-ui-date-picker/",
+        "featured-image": "architecture-buildings-construction-site-69483.jpg",
+        "featured-image-alt": "a construction site within a city between two buildings",
+        "teaser": "We developed a web map app for our Planning Department that shows subdivision and land development plans reviewed by their office.  One of the key features of the app was to allow users to filter plans by received date.  We used the jQuery UI Date Picker to build a simple widget."
     },
     {
-        "title": "Converting Parcels to Address Points With a Python Script",
-        "date": "August 2, 2017",
-        "url": "https://pnmcartodesign.wordpress.com/2017/08/02/converting-parcels-to-address-points-with-a-python-script/",
-        "featured-image": "fence-wood-fence-wood-limit-48246.jpeg",
-        "featured-image-alt": "a line of wooden fence posts",
-        "teaser": "Using Esri ArcPy search cursors and the centroid properties of polygon layer, you can create a point layer using a Python script.  I developed such a script to assist with a regional data update process for a group of counties."
+        "title": "My Experience Contributing to Open Source Projects",
+        "date": "March 19, 2019",
+        "url": "https://pnmcartodesign.wordpress.com/2019/03/19/my-experience-contributing-to-open-source-projects/",
+        "featured-image": "black-and-white-conference-room-digital-nomad-1181400.jpg",
+        "featured-image-alt": "people sitting in a conference room having a meeting",
+        "teaser": "2019 was a year in which I ramped up my contributions to open source projects.  I've learned so much on this journey.  I wanted to some some thoughts from my experience."
     }
 ]
