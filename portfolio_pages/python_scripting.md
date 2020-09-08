@@ -10,7 +10,7 @@ permalink: /portfolio/python-scripting
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1>Python SCripting</h1>                        
+                <h1>Python Scripting</h1>                        
             </div>
         </div>
         <div class="row">
