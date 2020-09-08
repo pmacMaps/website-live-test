@@ -1,26 +1,26 @@
 [
     {
-        "title": "How To Improve Image Accessibility for Esri Map Tour StoryMap Application",
-        "date": "October 29, 2019",
-        "url": "https://pnmcartodesign.wordpress.com/2019/10/29/how-to-improve-image-accessibility-for-esri-map-tour-storymap-application/",
-        "featured-image": "janis-oppliger-drhe-xf7wls-unsplash.jpg",
-        "featured-image-alt": "people holding a street map and pointing to a location on the map",
-        "teaser": "Providing the most accessible websites and browser-based applications should be a goal for every web developer.  I recently developed a solution for adding the alt attribute for img elements for the Esri Map Tour StoryMap application."
+        "title": "How to Add A Legend to the Esri Story Map Tour App",
+        "date": "July 23, 2020",
+        "url": "https://pnmcartodesign.wordpress.com/2020/07/23/how-to-add-a-legend-to-the-esri-story-map-tour-app/",
+        "featured-image": "daniil-silantev-ioywospyc0u-unsplash.jpg",
+        "featured-image-alt": "people holding a small map",
+        "teaser": "Using the Esri ArcGIS Javascript API, you can customize the Classic Story Map applications.  In this article, I'll walk you through adding a legend to the Map Tour app."
     },
     {
-        "title": "Building A Leaflet.js Map App With A jQuery UI Date Picker",
-        "date": "July 29, 2019",
-        "url": "https://pnmcartodesign.wordpress.com/2019/07/29/building-a-leaflet-js-map-app-with-a-jquery-ui-date-picker/",
-        "featured-image": "architecture-buildings-construction-site-69483.jpg",
-        "featured-image-alt": "a construction site within a city between two buildings",
-        "teaser": "We developed a web map app for our Planning Department that shows subdivision and land development plans reviewed by their office.  One of the key features of the app was to allow users to filter plans by received date.  We used the jQuery UI Date Picker to build a simple widget."
+        "title": "Converting Parcels to Address Points With a Python Script",
+        "date": "August 2, 2017",
+        "url": "https://pnmcartodesign.wordpress.com/2017/08/02/converting-parcels-to-address-points-with-a-python-script/",
+        "featured-image": "fence-wood-fence-wood-limit-48246.jpeg",
+        "featured-image-alt": "wooden fence posts",
+        "teaser": "To get around a software license issue with the Esri Feature to Point tool, I developed a Python script that loops through a polygon feature class, and creates a point feature class using the centroid coordinates."
     },
     {
-        "title": "My Experience Contributing to Open Source Projects",
-        "date": "March 19, 2019",
-        "url": "https://pnmcartodesign.wordpress.com/2019/03/19/my-experience-contributing-to-open-source-projects/",
-        "featured-image": "black-and-white-conference-room-digital-nomad-1181400.jpg",
-        "featured-image-alt": "people sitting in a conference room having a meeting",
-        "teaser": "2019 was a year in which I ramped up my contributions to open source projects.  I've learned so much on this journey.  I wanted to share some thoughts from my experience."
+        "title": "Reflections on Building Web Maps With Esri JS API From a Leaflet.js Fanboy",
+        "date": "April 2, 2020",
+        "url": "https://pnmcartodesign.wordpress.com/2020/04/02/reflections-on-building-web-maps-with-esri-js-api-from-a-leaflet-js-fanboy/",
+        "featured-image": "kyle-glenn-iflgwylt2fi-unsplash2.jpg",
+        "featured-image-alt": "a left or right road sign with mountains in the background.",
+        "teaser": "I started creating web map apps with Leaflet.js.  Last year, I finally learned the ArcGIS JavaScript API. I wanted to share a few reflections on working with both platforms. I believe both have a place for developers."
     }
 ]

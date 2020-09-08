@@ -4,3 +4,4 @@ assets/images/Thumbs.db
 assets/images/blog/Thumbs.db
 .sass-cache/
 _site/
+.jekyll-cache
