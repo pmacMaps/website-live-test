@@ -483,7 +483,7 @@ body.portfolio footer hr {
 }
 
 .about-intro ul,
-.pf-single ul {
+.pf-single div.post-content ul {
     list-style: square;
 }
 
@@ -525,6 +525,10 @@ body.portfolio .portfolio-item div.caption a.btn-primary {
 body.portfolio hr {
     border-top-width: 2px;    
     border-top-color: #555;
+}
+
+body.portfolio h1 {
+  margin-bottom: 50px;
 }
 
 /* Portfolio Groups */
