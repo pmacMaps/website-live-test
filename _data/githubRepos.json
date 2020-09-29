@@ -10,5 +10,9 @@
     {
         "title": "Esri Leaflet Documentation Website",
         "url": "https://github.com/Esri/esri-leaflet-doc"
+    },
+    {
+        "title": "Esri Leaflet Geocoder",
+        "url": "https://github.com/Esri/esri-leaflet-geocoder"
     }
 ]

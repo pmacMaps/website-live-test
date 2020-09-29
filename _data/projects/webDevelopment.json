@@ -1,9 +1,16 @@
-[    
+[
     {
         "title": "PaMAGIC",
         "image": "pamagic-website-screenshot.png",
         "image-alt": "screen shot of the website www.pamagic.org",
         "url": "/portfolio/product/pamagic",
-        "teaser": "I led a team in redesigning the Pennsylvania Mapping &#38; Geographic Consortium's website using Drupal."
+        "teaser": "I led a team in rebuilding the organization's website on the Drupal CMS platform.  I continue to serve as the website administrator."
+    },
+    {
+        "title": "McKinney Party of 5",
+        "image": "mckinney-party-of-5-screenshot.PNG",
+        "image-alt": "screen shot of the website www.mckinneypartyof5.life",
+        "url": "/portfolio/product/mckinneypartyof5",
+        "teaser": "I designed and built a family blogging website using a Jamstack approach.  The site is built using Jekyll, delivered through CloudFlare, and utilizes Bootstrap as the framework."
     }
 ]

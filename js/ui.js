@@ -3,13 +3,13 @@
 // change color of social media icons
 function changeSocialIconColor() {
 	// get src attribute for element
-	var src = $(this).attr('src');
-	
+	const src = $(this).attr('src');
+
 	// change color to black or white on events
 	if (src.indexOf("black") >= 0) {
-		$(this).attr('src', src.replace("black", "white"));		
+		$(this).attr('src', src.replace("black", "white"));
 	} else if (src.indexOf("white") >= 0) {
-		$(this).attr('src', src.replace("white", "black"));		
+		$(this).attr('src', src.replace("white", "black"));
 	}
 }
 
