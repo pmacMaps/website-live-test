@@ -1,23 +1,23 @@
 [
     {
-        "title": "Subdivision Plans Review App",
-        "url": "https://github.com/pmacMaps/sld-plans-review",
-        "teaser": "An interactive web map that allows querying subdivions plans reviewed by the county's Planning Department.  Built with Leaflet.js, Esri web services, and Bootstrap.",
+        "title": "Subdivision &#38; Land Development Plans Review App",
+        "url": "https://gis.ccpa.net/sld/activity/",
+        "teaser": "An interactive web map that allows querying subdivision/land development plans reviewed by the Cumberland County Planning office.  Built with Leaflet.js, Esri web services, and Bootstrap.",
         "image": "date-picker-map-screenshot.png",
-        "image-alt": "screen shot of a web map app"       
+        "image-alt": "screen shot of a web map app"
     },
     {
-        "title": "SARA Report Tool",
-        "url": "/portfolio/product/sara-report-tool",
-        "teaser": "The SARA Report Tool is a custom ArcGIS tool developed to assist Cumberland County Public Safety with the reporting for hazardous chemical facilties.", 
-        "image": "SARA-Report-Tool-Graphic.png",
-        "image-alt": "sketch diagram of the SARA Report custom geoprocessing tool"        
+        "title": "McKinney Party of 5 Website",
+        "url": "/portfolio/product/mckinneypartyof5",
+        "teaser": "I designed and built a family blogging website using a Jamstack approach.  The site is built using Jekyll, delivered through CloudFlare, and utilizes the Bootstrap framework.",
+        "image": "mckinney-party-of-5-screenshot.PNG",
+        "image-alt": "screen shot of the website www.mckinneypartyof5.life"
     },
     {
-        "title": "PaMAGIC Website",
-        "url": "/portfolio/product/pamagic",
-         "teaser": "I led a team in redesigning the Pennsylvania Mapping &#38; Geographic Consortium's website using Drupal.  I now serve as the website administrator.",
-        "image": "pamagic-website-screenshot.png",
-        "image-alt": "screen shot of the website www.pamagic.org"      
+        "title": "South Middleton Township Official Map",
+        "url": "/portfolio/product/south-middleton-official-map",
+         "teaser": "This update to the existing Official Map included designing a visual hierarchy among thematic and reference layers, and developing a balanced system of labels for features.",
+        "image": "sm-officialmap-snippet.PNG",
+        "image-alt": "screen shot of the South Middleton Township official map"
     }
 ]
