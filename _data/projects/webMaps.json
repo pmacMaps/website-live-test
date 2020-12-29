@@ -18,6 +18,6 @@
         "image": "pmg-members-map-screenshot.png",
         "image-alt": "screen shot of the PaMAGIC members web map application",
         "url": "/portfolio/product/pamagic-members-map",
-        "teaser": "This interactive web map showcases members of the Pennsylvania Mapping and Geographic Consortium.  It was built using Leaflet.js and the Esri Calcite Maps theme."
+        "teaser": "This interactive web map showcases members of the Pennsylvania Mapping and Geographic Information Consortium.  It was built using the Esri JavaScript API and the Esri Calcite Maps theme."
     }
 ]
