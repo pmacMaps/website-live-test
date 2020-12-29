@@ -7,11 +7,11 @@
         "teaser": "The Interactive Data Map was developed for the Cumberland County Economic Development Corporation to promote the County to prospective businesses.  It features a custom deployment of the Esri Shortlist Storytelling web map application."
     },
     {
-        "title": "Cumberland County Recycling &#38; Disposal Map",
-        "image": "rd-map-screenshot.png",
-        "image-alt": "screenshot of the Residential Recycling & Disposal web mapp application",
-        "url": "/portfolio/product/recycling-disposal-map",
-        "teaser": "This web map application was developed using Leaflet.js to assist residents of Cumberland County learn about solid waste disposal and recycling in ther municipality.  The map's theme is based upon the BootLeaf project."
+        "title": "Subdivision &#38; Land Development Plans Review App",
+        "image": "date-picker-map-screenshot.png",
+        "image-alt": "screen shot of a web map app",
+        "url": "https://gis.ccpa.net/sld/activity/",
+        "teaser": "An interactive web map that allows querying subdivision/land development plans reviewed by the Cumberland County Planning office.  Built with Leaflet.js, Esri web services, and Bootstrap."
     },
     {
         "title": "PAMAGIC Members Map",
