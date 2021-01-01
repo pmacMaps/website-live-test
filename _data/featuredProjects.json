@@ -1,7 +1,7 @@
 [
     {
         "title": "Subdivision &#38; Land Development Plans Review App",
-        "url": "https://gis.ccpa.net/sld/activity/",
+        "url": "/portfolio/product/saldo-review-map",
         "teaser": "An interactive web map that allows querying subdivision/land development plans reviewed by the Cumberland County Planning office.  Built with Leaflet.js, Esri web services, and Bootstrap.",
         "image": "date-picker-map-screenshot.png",
         "image-alt": "screen shot of a web map app"

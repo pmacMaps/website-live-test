@@ -1,17 +1,17 @@
 [
     {
-        "title": "CAEDC Interactive Data Map",
-        "image": "idm-app-screenshot.png",
-        "image-alt": "screen shot of the Interactive Data Map web map application",
-        "url": "/portfolio/product/interactive-data-map",
-        "teaser": "The Interactive Data Map was developed for the Cumberland County Economic Development Corporation to promote the County to prospective businesses.  It features a custom deployment of the Esri Shortlist Storytelling web map application."
-    },
-    {
         "title": "Subdivision &#38; Land Development Plans Review App",
         "image": "date-picker-map-screenshot.png",
         "image-alt": "screen shot of a web map app",
-        "url": "https://gis.ccpa.net/sld/activity/",
+        "url": "/portfolio/product/saldo-review-map",
         "teaser": "An interactive web map that allows querying subdivision/land development plans reviewed by the Cumberland County Planning office.  Built with Leaflet.js, Esri web services, and Bootstrap."
+    },
+    {
+        "title": "Yellow Breeches Water Trail Story Map",
+        "image": "yellow-breeches-map-tour-screenshot.PNG",
+        "image-alt": "screen shot of a web map app",
+        "url": "/portfolio/product/yellow-breeches-map-tour",
+        "teaser": "An Esri Classic Story Map Tour app that has been enhanced using custom JavaScript.  Enhancements include a toggable map legend and adding alt text attributes to all images."
     },
     {
         "title": "PAMAGIC Members Map",
