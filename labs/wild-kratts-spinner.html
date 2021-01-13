@@ -9,14 +9,12 @@ permalink: /labs/wild-kratts-spinner
   <title>Spinner for Wild Kratts Race Around the World Game</title>
   <meta name="description" content="A simple spinner app for the Wild Kratts Race Around the World board game.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <meta property="og:title" content="">
   <meta property="og:type" content="">
   <meta property="og:url" content="">
   <meta property="og:image" content="">
-
   <style>
-      html {
+    html {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
@@ -29,62 +27,65 @@ permalink: /labs/wild-kratts-spinner
         margin: 0;
         padding: 0;
     }
-
-      html,
-      body,
-      #main {
-          height: 100%;
-          width: 100%;
-      }
-
-      #main {
-          max-width: 1040px;
-          margin: 0 auto;
-          text-align: center;
-      }
-
-      #result {
-          border: 1px solid #000;
-          height: auto;
-          width: 80vw;
-          margin: 1.5em auto;
-          padding: 0.5em;
-          font-size: 2em;
-          font-weight: bold;
-      }
-
-      h1 {
-         padding-top: 0.5em;
-         font-size: 1.75em;
-      }
-
-      button {
-          font-size: 1.25em;
-          padding: 0.25em;
-      }
-
-      @media screen and (min-width: 769px) {
-          #result {
-              width: 10vw;
-          }
-      }
+    html,
+    body,
+    #main {
+        height: 100%;
+        width: 100%;
+    }
+    #main {
+        max-width: 1040px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #result {
+        border: 1px solid #000;
+        background-color: #000;
+        height: 100px;
+        width: 80vw;
+        margin: 1.5em auto;
+        padding: 0.5em;
+        font-size: 2em;
+        font-weight: bold;
+        line-height: 60px;
+        transition: background-color 0.15s ease-in-out;
+    }
+    h1 {
+       padding-top: 0.5em;
+       font-size: 1.75em;
+    }
+    button {
+        font-size: 1.25em;
+        padding: 1em;
+    }
+    @media screen and (min-width: 769px) {
+        #result {
+            width: 10vw;
+        }
+        button {
+            padding: 0.5em;
+        }
+    }
   </style>
 </head>
 <body>
     <section id="main">
         <h1>Game Spinner</h1>
-        <div id="result">[Value]</div>
+        <div id="result"></div>
         <button id="selector">Press to Spin</button>
     </section>
-
     <script>
+        // function to get random value from an array
         const getRandomValue = (list, uiElement) => {
             // get random value from array
             const value = list[Math.floor(Math.random() * list.length)];
             // display random value on page
             uiElement.innerHTML = value;
         }
-
+        // function to change css propery
+        const setBackgroundColor = (element, color) => {
+            element.style.backgroundColor = color;
+        }
         // array of possible values for spinner
         const spinnerValues = ['1', '2', '3', '4', '5', '6', 'SWIPE'];
         // DOM element to display results in
@@ -93,7 +94,12 @@ permalink: /labs/wild-kratts-spinner
         const spinnerButton = document.getElementById('selector');
         // add 'click' event listener to button
         spinnerButton.addEventListener('click', function() {
-            getRandomValue(spinnerValues, displayElement);
+            // hide result
+            setBackgroundColor(displayElement, '#000');
+            // update value
+            setTimeout(function() {getRandomValue(spinnerValues, displayElement)}, 400);
+            // show result
+            setTimeout(function() {setBackgroundColor(displayElement, '#fff')}, 700);
         });
     </script>
 </body>
