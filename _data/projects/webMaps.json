@@ -12,12 +12,5 @@
         "image-alt": "screen shot of a web map app",
         "url": "/portfolio/product/yellow-breeches-map-tour",
         "teaser": "An Esri Classic Story Map Tour app that has been enhanced using custom JavaScript.  Enhancements include a toggable map legend and adding alt text attributes to all images."
-    },
-    {
-        "title": "PAMAGIC Members Map",
-        "image": "pmg-members-map-screenshot.png",
-        "image-alt": "screen shot of the PaMAGIC members web map application",
-        "url": "/portfolio/product/pamagic-members-map",
-        "teaser": "This interactive web map showcases members of the Pennsylvania Mapping and Geographic Information Consortium.  It was built using the Esri JavaScript API and the Esri Calcite Maps theme."
     }
 ]
