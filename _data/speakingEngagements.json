@@ -1,5 +1,11 @@
 [
     {
+        "title": "Learn the Basics of Version Control with Git",
+        "event": "GeoDev Summit",
+        "year": 2021,
+        "url": "/assets/documents/Learn-the-Basics-of-Version-Control-with-Git.pdf"
+    },
+    {
         "title": "Customizing the Design and Adding Functionality to Esri Story Maps",
         "event": "Central Pennsylvania GIS Day",
         "year": 2019,
