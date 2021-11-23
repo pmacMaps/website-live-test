@@ -7,11 +7,11 @@
         "image-alt": "screen shot of a web map app"
     },
     {
-        "title": "McKinney Party of 5 Website",
-        "url": "/portfolio/product/mckinneypartyof5",
-        "teaser": "I designed and built a family blogging website using a Jamstack approach.  The site is built using Jekyll, delivered through CloudFlare, and utilizes the Bootstrap framework.",
-        "image": "mckinney-party-of-5-screenshot.PNG",
-        "image-alt": "screen shot of the website www.mckinneypartyof5.life"
+        "title": "SARA Report Tool",
+        "image": "dirty-industry-stack-factory-github.jpg",
+        "image-alt": "factory with smokestacks",
+        "url": "/portfolio/product/sara-report-tool",
+        "teaser": "The SARA Report Tool is a custom ArcGIS tool developed to assist Cumberland County Public Safety with the reporting for hazardous chemical facilties."
     },
     {
         "title": "South Middleton Township Official Map",
