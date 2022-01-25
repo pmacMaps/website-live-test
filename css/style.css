@@ -429,18 +429,18 @@ body.portfolio footer hr {
     margin-bottom: 50px;
 }
 
-.feat-portfolio .thumbnail {
-    min-height: 650px;      
+.feat-portfolio .card {
+    min-height: 650px;
 }
 
-.feat-portfolio .thumbnail,
-.prof-services .thumbnail,
-.feat-posts .thumbnail {
+.feat-portfolio .card,
+.prof-services .card,
+.feat-posts .card {
     padding: 25px;
 }
 
-.feat-portfolio .thumbnail h3,
-.feat-portfolio .thumbnail img,
+.feat-portfolio .card h3,
+.feat-portfolio .card img,
 .prof-services h3,
 .prof-services i {
     margin-bottom: 25px;
@@ -452,16 +452,16 @@ body.portfolio footer hr {
 }
 
 /* Featured Posts */
-.feat-posts .thumbnail {
-    min-height: 600px;   
+.feat-posts .card {
+    min-height: 750px;   
 }
 
-.feat-posts .thumbnail,
-.feat-portfolio .thumbnail {
+.feat-posts .card,
+.feat-portfolio .card {
     border-color: #555;
 }
 
-.feat-posts .thumbnail hr {
+.feat-posts .card hr {
     border-top-color: #555;
 }
 
