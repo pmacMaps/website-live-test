@@ -1,11 +1,13 @@
 <div class="col-md-4 portfolio-item">
-    <div class="thumbnail">
-        <h3 class="text-center">{{ include.title }}</h3>
-        <img src="../assets/images/portfolio/{{ include.image }}" alt="{{ include.alt }}" class="img-responsive" loading="lazy">
-        <div class="caption">
-            <p>{{ include.teaser }}</p>
-            <div class="text-center">
-                <a class="btn btn-primary" href="{{ include.url }}">View Project</a>
+    <div class="card">
+        <div class="card-body">
+            <h3 class="text-center card-title">{{ include.title }}</h3>
+            <img src="../assets/images/portfolio/{{ include.image }}" alt="{{ include.alt }}" class="img-responsive card-img-top" loading="lazy">
+            <div class="caption">
+                <p class="card-text">{{ include.teaser }}</p>
+                <div class="text-center">
+                    <a class="btn btn-primary mx-auto d-block" href="{{ include.url }}">View Project</a>
+                </div>
             </div>
         </div>
     </div>
