@@ -19,7 +19,7 @@ function mobileNavScroll() {
 }
 
 // social icons
-var footerSocialImage = $('footer img.social-icon.img-responsive');
+var footerSocialImage = $('footer img.social-icon.img-fluid');
 // bind events
 footerSocialImage.mouseenter(changeSocialIconColor);
 footerSocialImage.mouseleave(changeSocialIconColor);
