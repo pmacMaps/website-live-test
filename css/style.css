@@ -5,16 +5,16 @@
  */
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  /*font-family: Verdana,Geneva,sans-serif;*/
-  overflow-x: hidden;  
+  overflow-x: hidden;
 }
 p {
     margin-bottom: 20px;
 }
 p,
 ul,
-ol {
-  font-size: 1.25em;
+ol,
+li {
+  font-size: 1.08em;
 }
 li {
     margin-bottom: 10px;
@@ -52,6 +52,12 @@ h5,
 h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
+}
+.card h3 {
+  font-size: 1.35em;
+}
+.pf-single h1 {
+  font-size: 2em;
 }
 hr {
     border-top-color: #999;
@@ -153,7 +159,7 @@ section {
 }
 section h2 {
   margin: 0;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 section.success {
   background: #18BC9C;
@@ -399,11 +405,11 @@ body.portfolio footer hr {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; 
+    background-size: cover;
 }
 
 .home-intro p {
-    font-size: 2em;    
+    font-size: 1.75em;
 }
 
 .home-intro img {
@@ -428,8 +434,9 @@ body.portfolio footer hr {
     margin-bottom: 50px;
 }
 
-.feat-portfolio .card {
-    min-height: 700px;
+.feat-portfolio .card,
+.feat-posts .card {
+  min-height: 650px;
 }
 
 .feat-portfolio .card,
@@ -451,10 +458,6 @@ body.portfolio footer hr {
 }
 
 /* Featured Posts */
-.feat-posts .card {
-    min-height: 750px;   
-}
-
 .feat-posts .card,
 .feat-portfolio .card {
     border-color: #555;
