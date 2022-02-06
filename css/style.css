@@ -542,7 +542,7 @@ body.pf-single .pf-link {
     display: block;
     width: 300px;
     margin: 25px auto 50px auto;    
-    font-size: 2em;    
+    font-size: 1.5em;    
 }
 
 @media screen and (max-width:768px) {
