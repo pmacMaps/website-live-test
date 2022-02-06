@@ -44,6 +44,9 @@ button.close:hover,
 button.close:focus {
     color: #006400;
 }
+a[href$=".pdf"]::after {
+  content: " (PDF)";
+}
 h1,
 h2,
 h3,
