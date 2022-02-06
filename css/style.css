@@ -44,10 +44,6 @@ button.close:hover,
 button.close:focus {
     color: #006400;
 }
-/* Style all links that include .pdf at the end */
-a[href$=".pdf"]::after {
-  content: " (pdf)";
-}
 h1,
 h2,
 h3,
