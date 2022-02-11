@@ -27,9 +27,9 @@ footerSocialImage.mouseleave(changeSocialIconColor);
 
 /*** Event Listeners ***/
 $(document).ready(function() {
-	mobileNavScroll();
+	//mobileNavScroll();
 });
 
 $(window).resize(function() {
-	mobileNavScroll();
+	//mobileNavScroll();
 });
