@@ -63,8 +63,11 @@ header nav a {
 header nav a.navbar-brand {
   font-size: 1.5em;
 }
-section {
+body.home section {
   padding: 100px 0;
+}
+section {
+  padding: 50px 0;
 }
 section h2 {
   margin: 0;
@@ -225,7 +228,8 @@ body.portfolio footer hr {
 }
 
 /* About Me Summary */
-.home-intro {
+.home-intro,
+.about-intro {
     background: url(/assets/images/pexels-photo-129882-transparent.jpeg) no-repeat bottom center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -272,7 +276,8 @@ body.portfolio footer hr {
 .feat-portfolio h2,
 .prof-services h2,
 .feat-posts h2,
-.client-list h2 {
+.client-list h2,
+.about-contribute h2 {
     margin-bottom: 50px;
 }
 
@@ -311,8 +316,9 @@ body.portfolio footer hr {
 
 
 /*** About Page ***/
-.about-intro {
-    margin-top: 50px;     
+.about-intro div.bg-white {
+  padding: 50px;
+  border-radius: 5%;
 }
 
 .about-intro a.btn-primary {
@@ -331,14 +337,17 @@ body.portfolio footer hr {
     list-style: square;
 }
 
+.about-contribute h3 {
+  margin-top: 35px;
+  font-size: 1.5em;
+}
+
 .client-list {
-    padding-top: 125px;
-    padding-bottom: 125px;    
-    background: url(/assets/images/herring-cove-beach-sunset-transparent.JPG) no-repeat bottom center fixed; 
+    background: url(/assets/images/herring-cove-beach-sunset-transparent.JPG) no-repeat bottom center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;  
+    background-size: cover;
 }
 
 .client-list .row {
@@ -351,6 +360,7 @@ body.portfolio footer hr {
     padding: 15px;
     border-radius: 10px;
     background: #fff;
+    font-size: 1.25em;
 }
 
 
