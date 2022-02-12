@@ -64,7 +64,7 @@ header nav a.navbar-brand {
   font-size: 1.5em;
 }
 section {
-  padding: 75px 0;
+  padding: 100px 0;
 }
 section h2 {
   margin: 0;
@@ -218,7 +218,6 @@ footer img.social-icon {
     width: 50%;
 }
 
-
 /*** Homepage ***/
 footer hr,
 body.portfolio footer hr {
@@ -227,9 +226,7 @@ body.portfolio footer hr {
 
 /* About Me Summary */
 .home-intro {
-    padding-top: 125px;
-    padding-bottom: 125px;
-    background: url(/assets/images/pexels-photo-129882-transparent.jpeg) no-repeat bottom center fixed; 
+    background: url(/assets/images/pexels-photo-129882-transparent.jpeg) no-repeat bottom center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -246,13 +243,30 @@ body.portfolio footer hr {
 
 /* Featured Portfolio Items */
 #home-portfolio {
-    padding-top: 125px;
-    padding-bottom: 125px;
-    background: url(/assets/images/skyline-buildings-new-york-skyscrapers-transparent.jpg) no-repeat bottom center fixed; 
+    background: url(/assets/images/skyline-buildings-new-york-skyscrapers-transparent.jpg) no-repeat bottom center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;   
+    background-size: cover;
+}
+
+.feat-posts div.card-body img {
+  margin-bottom: 15px;
+}
+
+.feat-posts div.card-body h3,
+.feat-portfolio div.card-body h3 {
+  min-height: 100px;
+}
+
+.feat-portfolio div.card-body img {
+  max-height: 150px;
+  overflow-y: hidden;
+  object-fit: cover;
+}
+
+.feat-portfolio div.card-body p {
+  min-height: 175px;
 }
 
 .feat-portfolio h2,
@@ -264,7 +278,7 @@ body.portfolio footer hr {
 
 .feat-portfolio .card,
 .feat-posts .card {
-  min-height: 650px;
+  min-height: 600px;
 }
 
 .feat-portfolio .card,
