@@ -246,10 +246,6 @@ footer img.social-icon {
 }
 
 /*** Homepage ***/
-body.home section {
-  padding: 100px 0;
-}
-
 footer hr,
 body.portfolio footer hr {
     border-top-color: #fff;
@@ -424,9 +420,9 @@ body.pf-single section hr {
 
 /*** Media Queries ***/
 @media screen and (max-width:768px) {
-    .navbar-brand {
+  .navbar-brand {
         font-size: 2em;
-    }
+  }
 
   section,
   #home-portfolio,
@@ -434,26 +430,42 @@ body.pf-single section hr {
     padding: 75px 0;
   }
 
+  section {
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+  }
+
     section.first {
     padding-top: 75px;
   }
 
     /* Home Page */
-    .home-intro {
+    .home-intro,
+    .about-intro {
         margin-top: 50px;
-        padding-top: 50px;
-        padding-bottom: 50px;
+    }
+
+    .home-intro > div > div > div,
+    .about-intro > div > div > div:first-child  {
+      text-align: center;
     }
 
     .home-intro img,
     .about-intro img {
-        max-width: 80%;
+        max-width: 65%;
         margin: 0 auto;
     }
 
     .home-intro p {
         margin-top: 30px;
         font-size: 1.75em;
+    }
+
+    .feat-portfolio .card, .feat-posts .card,
+    .feat-portfolio div.card-body p,
+    .feat-posts div.card-body h3,
+    .feat-portfolio div.card-body h3 {
+      min-height: inherit;
     }
 
     .feat-posts .col-md-4,
@@ -481,8 +493,9 @@ body.pf-single section hr {
     }
 
     /* About */
-    .about-intro {
-        margin-top: 15px;
+    .about-intro div.bg-white {
+      margin-top: 50px;
+      padding: 1em;
     }
 
     .about-intro p {
@@ -535,11 +548,15 @@ body.pf-single section hr {
 }
 
 @media screen and (min-width: 769px) {
-
+  body.home section {
+    padding: 100px 0;
+  }
 }
 
 @media screen and (max-width: 991px) {
-
+  body {
+    padding-top: 0;
+  }
 }
 
 @media screen and (max-width: 1024px) {
