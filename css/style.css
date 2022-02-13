@@ -1,27 +1,34 @@
+/* General Rules */
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
 }
+
 p {
   font-size: 1.08em;
   margin-bottom: 20px;
 }
+
 ul,
 ol,
 li {
   font-size: 1.02em;
 }
+
 li {
     margin-bottom: 10px;
 }
+
 li:last-child {
     margin-bottom: auto;
 }
+
 a,
 .dropdown-menu a:hover,
 .dropdown-menu a:focus {
   color: #0645AD;
 }
+
 a:hover,
 a:focus,
 a:active,
@@ -30,9 +37,11 @@ button.close:hover,
 button.close:focus {
     color: #006400;
 }
+
 a[href$=".pdf"]::after {
   content: " (PDF)";
 }
+
 h1,
 h2,
 h3,
@@ -42,17 +51,13 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
+
 .card h3 {
   font-size: 1.35em;
 }
-.pf-single h1 {
-  font-size: 1.75em;
-}
+
 hr {
   border-top-color: #999;
-}
-body.pf-single section hr {
-  margin: 35px 0;
 }
 
 header nav a,
@@ -68,41 +73,15 @@ img {
   object-fit: cover;
 }
 
-header nav a {
-  color: white;
-  transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-  border-bottom: #6C815E solid 1px;
-}
-header nav a.navbar-brand {
-  font-size: 1.5em;
-}
-body.home section {
-  padding: 100px 0;
-}
 section {
   padding: 50px 0;
 }
+
 section h2 {
   margin: 0;
   font-size: 2.5em;
 }
-footer {
-  color: white;
-}
-footer h3 {
-  margin-bottom: 30px;
-}
-footer .footer-above {
-  padding-top: 50px;
-  background-color: #2C3E50;
-}
-footer .footer-col {
-  margin-bottom: 50px;
-}
-footer .footer-below {
-  padding: 25px 0;
-  background-color: #233140;
-}
+
 .btn-outline {
   color: white;
   font-size: 20px;
@@ -111,6 +90,7 @@ footer .footer-below {
   transition: all 0.25s ease-in-out;
   margin-top: 15px;
 }
+
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
@@ -119,19 +99,19 @@ footer .footer-below {
   background: white;
   border: solid 2px white;
 }
+
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   background-image: none;
 }
+
 .btn:focus,
 .btn:active,
 .btn.active {
   outline: none;
 }
-.portfolio-item a {
-    text-decoration: none;
-}
+
 .scroll-top {
   position: fixed;
   right: 2%;
@@ -140,6 +120,7 @@ footer .footer-below {
   height: 50px;
   z-index: 1049;
 }
+
 .scroll-top .btn {
   font-size: 20px;
   width: 50px;
@@ -147,13 +128,44 @@ footer .footer-below {
   border-radius: 100%;
   line-height: 28px;
 }
+
 .scroll-top .btn:focus {
   outline: none;
 }
 
-/*** Header & Footer ***/
+button.close {
+  opacity: 1;
+}
+
+.btn-primary,
+#emailModal div.modal-footer button.btn.btn-default {
+color: white;
+background-color: #6C815E;
+border-color: #000;
+font-weight: 700;
+-webkit-transition: background 0.25s ease-in-out, border-color 0.25s ease-in-out;
+-moz-transition: background 0.25s ease-in-out, border-color 0.25s ease-in-out;
+-o-transition: background 0.25s ease-in-out, border-color 0.25s ease-in-out;
+transition: background 0.25s ease-in-out, border-color 0.25s ease-in-out;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:active:hover,
+.btn-primary:active:focus,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary,
+#emailModal div.modal-footer button.btn.btn-default:hover,
+#emailModal div.modal-footer button.btn.btn-default:focus {
+color: white;
+background-color: #000;
+border-color: #000;
+}
+
+/*** Header ***/
 header,
-footer .footer-below {
+footer {
     background-color: #6C815E;
 }
 
@@ -175,6 +187,16 @@ header nav a:focus {
   border-bottom-color: #000;
 }
 
+header nav a {
+  color: white;
+  transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+  border-bottom: #6C815E solid 1px;
+}
+
+header nav a.navbar-brand {
+  font-size: 1.5em;
+}
+
 .dropdown-menu {
   left: auto;
   right: 1vw;
@@ -187,39 +209,27 @@ header nav a:focus {
   background: inherit;
 }
 
-/* Links & Buttons */
-button.close {
-    opacity: 1;
-}
-
-.btn-primary,
-#emailModal div.modal-footer button.btn.btn-default {
+/*** Footer ***/
+footer {
   color: white;
-  background-color: #6C815E;
-  border-color: #000;
-  font-weight: 700;
-  -webkit-transition: background 0.25s ease-in-out, border-color 0.25s ease-in-out;
-  -moz-transition: background 0.25s ease-in-out, border-color 0.25s ease-in-out;
-  -o-transition: background 0.25s ease-in-out, border-color 0.25s ease-in-out;
-  transition: background 0.25s ease-in-out, border-color 0.25s ease-in-out;
 }
 
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary:active:hover,
-.btn-primary:active:focus,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary,
-#emailModal div.modal-footer button.btn.btn-default:hover,
-#emailModal div.modal-footer button.btn.btn-default:focus {
-  color: white;
-  background-color: #000;
-  border-color: #000;
+footer h3 {
+  margin-bottom: 30px;
 }
 
-/* Footer */
+footer .footer-above {
+  padding-top: 50px;
+}
+
+footer .footer-col {
+  margin-bottom: 50px;
+}
+
+footer .footer-below {
+  padding: 25px 0;
+}
+
 footer img.social-icon {
 	display: inline-block;
 	height: 40px;
@@ -235,6 +245,10 @@ footer img.social-icon {
 }
 
 /*** Homepage ***/
+body.home section {
+  padding: 100px 0;
+}
+
 footer hr,
 body.portfolio footer hr {
     border-top-color: #fff;
@@ -326,7 +340,6 @@ body.portfolio footer hr {
     border-top-color: #555;
 }
 
-
 /*** About Page ***/
 .about-intro div.bg-white {
   padding: 50px;
@@ -373,8 +386,7 @@ body.portfolio footer hr {
     background: #fff;
 }
 
-
-/*** Portfolio Page ***/
+/*** Portfolio Pages ***/
 .portfolio-main {
     /*min-height: 700px;*/
     margin-top: 50px;
@@ -383,12 +395,16 @@ body.portfolio footer hr {
 }
 
 body.portfolio hr {
-    border-top-width: 2px;    
+    border-top-width: 2px;
     border-top-color: #555;
 }
 
 body.portfolio h1 {
   margin-bottom: 50px;
+}
+
+.pf-single h1 {
+  font-size: 1.75em;
 }
 
 body.pf-single .pf-link {
@@ -397,108 +413,115 @@ body.pf-single .pf-link {
     margin: 25px auto 50px auto;
 }
 
+body.pf-single section hr {
+  margin: 35px 0;
+}
+
+.portfolio-item a {
+  text-decoration: none;
+}
+
+/*** Media Queries ***/
 @media screen and (max-width:768px) {
     .navbar-brand {
         font-size: 2em;
-    }    
-    
-    
+    }
+
   section,
   #home-portfolio,
   .client-list {
     padding: 75px 0;
   }
-  
+
     section.first {
     padding-top: 75px;
   }
-    
+
     /* Home Page */
     .home-intro {
         margin-top: 50px;
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    
+
     .home-intro img,
     .about-intro img {
         max-width: 80%;
         margin: 0 auto;
     }
-    
+
     .home-intro p {
         margin-top: 30px;
         font-size: 1.75em;
     }
-     
+
     .feat-posts .col-md-4,
     #home-portfolio .portfolio-item,
     body.portfolio .portfolio-item {
         margin-bottom: 50px;
     }
-    
+
     .feat-posts .col-md-4:last-child,
     #home-portfolio .portfolio-item:last-child,
     body.portfolio .portfolio-item:last-child {
         margin-bottom: 0;
     }
-    
+
     #home-portfolio {
         margin-top: 0;
     }
-    
+
     .portfolio-item a.btn-primary {
         margin-top: 30px;
     }
-    
+
     .social-footer .fa {
         font-size: 4em;
     }
-    
+
     /* About */
     .about-intro {
         margin-top: 15px;
     }
-    
+
     .about-intro p {
         margin-top: 20px;
     }
-    
+
     .about-intro a.btn-primary {
         margin: 25px 0;
     }
-    
+
     .about-intro li {
         margin-top: 15px;
     }
-    
+
     .client-list {
         text-align: center;
     }
-    
+
     .client-list h2 {
         font-size: 2.5em;
     }
-    
+
     /* Portfolio */
     body.pf-single section {
         margin-top: 0;
     }
-    
+
     body.portfolio .feat-portfolio {
         padding: 25px 0;
     }
-    
+
     body.portfolio h2 {
         font-size: 2em;
     }
-    
+
     body.portfolio h3 {
         font-size: 1.5em;
     }
 }
 
-/* Media Queries */
 @media screen and (max-width:600px) {
     .navbar-brand {
         font-size: 1.25em;
