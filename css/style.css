@@ -3,13 +3,13 @@ body {
   overflow-x: hidden;
 }
 p {
-    margin-bottom: 20px;
+  font-size: 1.08em;
+  margin-bottom: 20px;
 }
-p,
 ul,
 ol,
 li {
-  font-size: 1.08em;
+  font-size: 1.02em;
 }
 li {
     margin-bottom: 10px;
@@ -46,17 +46,30 @@ h6 {
   font-size: 1.35em;
 }
 .pf-single h1 {
-  font-size: 2em;
+  font-size: 1.75em;
 }
 hr {
-    border-top-color: #999;
+  border-top-color: #999;
 }
-.img-centered {
-  margin: 0 auto;
+body.pf-single section hr {
+  margin: 35px 0;
 }
+
+header nav a,
+.portfolio-item a.btn-primary,
+.about-intro a.btn-primary,
+.client-list h4,
+body.portfolio .portfolio-item div.caption a.btn-primary,
+body.pf-single .pf-link {
+  font-size: 1.25em;
+}
+
+img {
+  object-fit: cover;
+}
+
 header nav a {
   color: white;
-  font-size: 1.25em;
   transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
   border-bottom: #6C815E solid 1px;
 }
@@ -267,7 +280,6 @@ body.portfolio footer hr {
   max-height: 150px;
   min-height: 150px;
   overflow-y: hidden;
-  object-fit: cover;
 }
 
 .feat-portfolio div.card-body p {
@@ -301,7 +313,6 @@ body.portfolio footer hr {
 }
 
 .portfolio-item a.btn-primary {
-    font-size: 1.25em;
     width: 150px;
 }
 
@@ -324,7 +335,6 @@ body.portfolio footer hr {
 
 .about-intro a.btn-primary {
     margin: 50px auto;
-    font-size: 1.25em;
 }
 
 .about-intro h3 {
@@ -361,7 +371,6 @@ body.portfolio footer hr {
     padding: 15px;
     border-radius: 10px;
     background: #fff;
-    font-size: 1.25em;
 }
 
 
@@ -373,10 +382,6 @@ body.portfolio footer hr {
     padding-bottom: 75px;
 }
 
-body.portfolio .portfolio-item div.caption a.btn-primary {
-    font-size: 1.25em;
-}
-
 body.portfolio hr {
     border-top-width: 2px;    
     border-top-color: #555;
@@ -386,16 +391,10 @@ body.portfolio h1 {
   margin-bottom: 50px;
 }
 
-/* Portfolio Groups */
-body.pf-single section {
-    margin-top: 25px;
-}
-
 body.pf-single .pf-link {
     display: block;
     width: 300px;
-    margin: 25px auto 50px auto;    
-    font-size: 1.5em;    
+    margin: 25px auto 50px auto;
 }
 
 @media screen and (max-width:768px) {
