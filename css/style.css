@@ -265,6 +265,7 @@ body.portfolio footer hr {
 
 .feat-portfolio div.card-body img {
   max-height: 150px;
+  min-height: 150px;
   overflow-y: hidden;
   object-fit: cover;
 }
