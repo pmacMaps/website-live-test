@@ -519,8 +519,16 @@ body.pf-single section hr {
     }
 
     /* Portfolio */
+    body.pf-single {
+      padding-top: 50px;
+    }
+
     body.pf-single section {
         margin-top: 0;
+    }
+
+    body.pf-single section img {
+      margin-top: 50px;
     }
 
     body.portfolio .feat-portfolio {
@@ -554,9 +562,12 @@ body.pf-single section hr {
 }
 
 @media screen and (max-width: 991px) {
-  body {
+
+  body.home,
+  body.about {
     padding-top: 0;
   }
+
 }
 
 @media screen and (max-width: 1024px) {

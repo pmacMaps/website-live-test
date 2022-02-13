@@ -6,31 +6,40 @@ description: Here be dragons!  Or maybe the Bajoran wormhole.  In any case, it l
 permalink: /404.html
 ---
 <style>
-    .page-not-found {
-        margin-top: 50px;
-    }
-    body.page-not-found div.row > img {
-        margin-bottom: 50px;
+    body.page-not-found section img {
+        margin-bottom: 25px;
+		width: 60%;
 	}
 	@media screen and (max-width: 768px) {
 		.page-not-found {
-        margin-top: 0;
+			padding-left: 1.25em;
+			padding-right: 1.25em;
+		}
+		div img {
+			margin-top: 25px;
+		}
+		body.page-not-found section img {
+			width: 100%;
 		}
 	}
 </style>
-<div class="container">
+<section class="container">
 	<div class="row page-not-found">
-		<h1 class="text-center">Page Not Found</h1>
-		<p>Welcome visitor!  It looks like the page you're looking for can't be found.</p>
-		<p>Here are some pages you might be interested in:</p>
-		<ul>
-			<li><a href="{{site.url}}/about">Learn about Patrick McKinney</a></li>
-			<li><a href="{{site.url}}/portfolio">View some of my projects</a></li>
-			<li><a target="_blank" rel="noopener noreferrer" href="https://pnmcartodesign.wordpress.com/">My blog</a></li>
-		</ul>
-		</ul>
+		<div class="col-md-12">
+			<h1 class="text-center">Page Not Found</h1>
+			<p>Welcome visitor!  It looks like the page you're looking for can't be found.</p>
+			<p>Here are some pages you might be interested in:</p>
+			<ul>
+				<li><a href="{{site.url}}/about">Learn about Patrick McKinney</a></li>
+				<li><a href="{{site.url}}/portfolio">View some of my projects</a></li>
+				<li><a target="_blank" rel="noopener noreferrer" href="https://pnmcartodesign.wordpress.com/">My blog</a></li>
+			</ul>
+			</ul>
+		</div>
 	</div>
 	<div class="row">
-		<img class="img-fluid" alt="watercolor map of the Harrisburg, Pennsylvania area" title="watercolor map of the Harrisburg, Pennsylvania area" loading="lazy" src="{{site.url}}/assets/images/watercolor-stamen-map.jpeg" />
+		<div class="col-md-12 text-center">
+			<img class="img-fluid center-block" alt="watercolor map of the Harrisburg, Pennsylvania area" title="watercolor map of the Harrisburg, Pennsylvania area" loading="lazy" src="{{site.url}}/assets/images/watercolor-stamen-map.jpeg" />
+		</div>
 	</div>
-</div>
+</section>
