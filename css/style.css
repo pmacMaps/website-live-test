@@ -170,6 +170,11 @@ footer {
     background-color: #6C815E;
 }
 
+button.navbar-toggler {
+  color: #fff;
+  font-size: 1.5em;
+}
+
 span.caret {
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
@@ -422,6 +427,14 @@ body.pf-single section hr {
 @media screen and (max-width:768px) {
   .navbar-brand {
         font-size: 2em;
+  }
+
+  .navbar-nav .dropdown-menu {
+    width: 100%;
+  }
+
+  .navbar-nav .dropdown-menu a {
+    color: #0645AD;
   }
 
   section,
