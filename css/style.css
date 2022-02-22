@@ -444,12 +444,19 @@ body.pf-single section hr {
   }
 
   section {
-    padding-left: 1.25em;
-    padding-right: 1.25em;
+    padding-left: 1em;
+    padding-right: 1em;
   }
 
     section.first {
     padding-top: 75px;
+  }
+
+  .feat-portfolio .card,
+  .prof-services .card,
+  .feat-posts .card {
+    padding: 25px;
+    padding: 5px;
   }
 
     /* Home Page */
@@ -509,6 +516,7 @@ body.pf-single section hr {
     .about-intro div.bg-white {
       margin-top: 50px;
       padding: 1em;
+      border-radius: 0;
     }
 
     .about-intro p {
@@ -542,10 +550,6 @@ body.pf-single section hr {
 
     body.pf-single section img {
       margin-top: 50px;
-    }
-
-    body.portfolio .feat-portfolio {
-        padding: 25px 0;
     }
 
     body.portfolio h2 {
