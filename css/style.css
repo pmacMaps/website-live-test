@@ -427,16 +427,22 @@ body.pf-single section hr {
   section,
   #home-portfolio,
   .client-list {
-    padding: 75px 0;
+    padding: 25px 0;
   }
 
   section {
-    padding-left: 1.25em;
-    padding-right: 1.25em;
+    padding-left: 1em;
+    padding-right: 1em;
   }
 
     section.first {
     padding-top: 75px;
+  }
+
+  .feat-portfolio .card,
+  .prof-services .card,
+  .feat-posts .card {
+    padding: 5px;
   }
 
     /* Home Page */
@@ -496,6 +502,7 @@ body.pf-single section hr {
     .about-intro div.bg-white {
       margin-top: 50px;
       padding: 1em;
+      border-radius: 0;
     }
 
     .about-intro p {
@@ -565,7 +572,7 @@ body.pf-single section hr {
 
   body.home,
   body.about {
-    padding-top: 0;
+    padding-top: 15px;
   }
 
 }
