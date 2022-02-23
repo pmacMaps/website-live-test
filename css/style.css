@@ -440,7 +440,7 @@ body.pf-single section hr {
   section,
   #home-portfolio,
   .client-list {
-    padding: 75px 0;
+    padding: 25px 0;
   }
 
   section {
@@ -540,10 +540,6 @@ body.pf-single section hr {
     }
 
     /* Portfolio */
-    body.pf-single {
-      padding-top: 50px;
-    }
-
     body.pf-single section {
         margin-top: 0;
     }
@@ -582,7 +578,7 @@ body.pf-single section hr {
 
   body.home,
   body.about {
-    padding-top: 0;
+    padding-top: 15px;
   }
 
 }
