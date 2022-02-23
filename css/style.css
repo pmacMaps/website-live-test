@@ -170,6 +170,11 @@ footer {
     background-color: #6C815E;
 }
 
+button.navbar-toggler {
+  color: #fff;
+  font-size: 1.5em;
+}
+
 span.caret {
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
@@ -424,6 +429,14 @@ body.pf-single section hr {
         font-size: 2em;
   }
 
+  .navbar-nav .dropdown-menu {
+    width: 100%;
+  }
+
+  .navbar-nav .dropdown-menu a {
+    color: #0645AD;
+  }
+
   section,
   #home-portfolio,
   .client-list {
@@ -442,6 +455,7 @@ body.pf-single section hr {
   .feat-portfolio .card,
   .prof-services .card,
   .feat-posts .card {
+    padding: 25px;
     padding: 5px;
   }
 
@@ -526,20 +540,12 @@ body.pf-single section hr {
     }
 
     /* Portfolio */
-    body.pf-single {
-      padding-top: 50px;
-    }
-
     body.pf-single section {
         margin-top: 0;
     }
 
     body.pf-single section img {
       margin-top: 50px;
-    }
-
-    body.portfolio .feat-portfolio {
-        padding: 25px 0;
     }
 
     body.portfolio h2 {
