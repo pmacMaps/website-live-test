@@ -437,15 +437,8 @@ body.pf-single section hr {
     color: #0645AD;
   }
 
-  section,
-  #home-portfolio,
-  .client-list {
-    padding: 25px 0;
-  }
-
   section {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 50px 1em;
   }
 
     section.first {
