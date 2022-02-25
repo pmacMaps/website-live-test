@@ -454,8 +454,11 @@ body.pf-single section hr {
 
     /* Home Page */
     .home-intro,
-    .about-intro {
-        margin-top: 50px;
+    .about-intro,
+    body.portfolio,
+    body.pf-single,
+    body.page-not-found {
+        margin-top: 40px;
     }
 
     .home-intro > div > div > div,
@@ -570,7 +573,10 @@ body.pf-single section hr {
 @media screen and (max-width: 991px) {
 
   body.home,
-  body.about {
+  body.about,
+  body.portfolio,
+  body.pf-single,
+  body.page-not-found {
     padding-top: 15px;
   }
 
