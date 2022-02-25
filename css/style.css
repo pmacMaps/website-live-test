@@ -429,6 +429,12 @@ body.pf-single section hr {
         font-size: 2em;
   }
 
+  section,
+  #home-portfolio,
+  .client-list {
+    padding: 25px 0;
+
+  }
   .navbar-nav .dropdown-menu {
     width: 100%;
   }
@@ -484,13 +490,13 @@ body.pf-single section hr {
       min-height: inherit;
     }
 
-    .feat-posts .col-md-4,
+    .feat-posts .col-lg-4,
     #home-portfolio .portfolio-item,
     body.portfolio .portfolio-item {
         margin-bottom: 50px;
     }
 
-    .feat-posts .col-md-4:last-child,
+    .feat-posts .col-lg-4:last-child,
     #home-portfolio .portfolio-item:last-child,
     body.portfolio .portfolio-item:last-child {
         margin-bottom: 0;
@@ -568,6 +574,46 @@ body.pf-single section hr {
   body.home section {
     padding: 100px 0;
   }
+}
+
+/* table territory */
+@media screen and (min-width: 769px) and (max-width: 991px) {
+
+  .home-intro img {
+    margin-top: 0;
+  }
+
+  section.feat-posts div.col-lg-4,
+  section.feat-portfolio div.col-lg-4 {
+    margin: 25px 0;
+  }
+
+  section.feat-posts div.col-lg-4:first-child,
+  section.feat-portfolio div.col-lg-4:first-child {
+    margin-top: 0;
+  }
+
+  section.feat-posts div.col-lg-4:last-child,
+  section.feat-portfolio div.col-lg-4:last-child {
+    margin-bottom: 0;
+  }
+
+  body.about .about-intro {
+    padding-top: 115px;
+  }
+
+  body.portfolio section:first-child,
+  body.pf-single section:first-child {
+    padding-top: 75px;
+  }
+
+  .feat-portfolio .card, .feat-posts .card,
+    .feat-portfolio div.card-body p,
+    .feat-posts div.card-body h3,
+    .feat-portfolio div.card-body h3 {
+      min-height: inherit;
+    }
+
 }
 
 @media screen and (max-width: 991px) {
